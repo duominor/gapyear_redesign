@@ -142,6 +142,16 @@ const regionMapSources = {
     africa: "./img/africa_map.svg"
 };
 
+// 대륙별 지도 이미지 - 1200px 이하
+const regionMapMobileSources = {
+    europe: "./img/europe_map_mobile.svg",
+    asia: "./img/asia_map_1_mobile.svg",
+    north_america: "./img/n_america_map_mobile.svg",
+    south_america: "./img/s_america_map_mobile.svg",
+    oceania: "./img/oceania_map_mobile.svg",
+    africa: "./img/africa_map_mobile.svg"
+};
+
 
 // 대륙 선택
 
@@ -210,7 +220,9 @@ function selectRegion(regionId){
     worldMap.style.display = "none";
     regionMap.style.display = "block";
 
-    regionMapImg.src = regionMapSources[regionId];
+    regionMapImg.src = window.innerWidth <= 1200
+    ? regionMapMobileSources[regionId]
+    : regionMapSources[regionId];
 
     countryGuide.querySelector("h3").innerHTML =
       "궁금한 국가를 선택해보세요.";
