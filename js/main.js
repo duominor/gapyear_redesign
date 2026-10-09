@@ -188,8 +188,11 @@ function selectRegion(regionId){
     // 전체
     if(regionId === "all"){
 
-    // 모바일 국가 선택 영역 숨김
-    mobileCountrySelect.classList.remove("active");  
+
+    // 모바일 안내 영역 표시
+    mobileCountrySelect.classList.add("active");
+
+   
 
     document.querySelector(".mobile_country_title").textContent =
     "어디로 떠나볼까요?";
@@ -234,6 +237,9 @@ function selectRegion(regionId){
 
     mobileCountrySelect.style.display =
     window.innerWidth <= 1200 ? "block" : "none";
+
+    // 대륙 선택 시 국가 태그 다시 표시
+    document.querySelector(".mobile_country_list").style.display = "";
 
     // 대륙
     worldMap.style.display = "none";

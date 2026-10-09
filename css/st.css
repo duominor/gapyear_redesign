@@ -3965,16 +3965,16 @@ body.nav_open{
     }
 
 
-
-   .mobile_country_select {
-        display: none;
-        width: 100%;
+    .mobile_country_select {
+        display: block;
+        margin-top: -40px;
     }
 
- 
-     .mobile_country_select.active {
-         display: block;
-     }
+    .mobile_country_list:empty {
+        display: none;
+    }
+
+
      
     .mobile_country_list{
         display: grid;
@@ -4086,9 +4086,6 @@ body.nav_open{
        display: block;
     }
 
-    .mobile_country_select {
-       display: none;
-    }
 
 
 
@@ -4340,6 +4337,10 @@ body.nav_open{
 
     .country_city {
         margin: 8px 25px;
+    }
+
+    .mobile_country_select {
+        margin-top: 0;
     }
 
 
@@ -5023,7 +5024,7 @@ body.nav_open{
     }
 
     .flow_gallery_group img {
-       width: 400px;
+       width: 350px;
        height: 200px;
     }
 
