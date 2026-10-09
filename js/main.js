@@ -191,6 +191,17 @@ function selectRegion(regionId){
     // 모바일 국가 선택 영역 숨김
     mobileCountrySelect.classList.remove("active");  
 
+    document.querySelector(".mobile_country_title").textContent =
+    "어디로 떠나볼까요?";
+
+    // ⭐ 전체 선택 시 안내 문구 변경 (추가)
+    document.querySelector(".mobile_country_desc").textContent =
+    "대륙을 선택하면 프로젝트 정보를 확인할 수 있어요.";
+
+     // 이전 대륙의 국가 태그 삭제 ⭐
+    document.querySelector(".mobile_country_list").innerHTML = "";
+
+
     worldMap.style.display = "block";
     regionMap.style.display = "none";
 
@@ -211,7 +222,15 @@ function selectRegion(regionId){
         "대륙을 선택하면 지역별 갭이어 프로젝트를<br> 확인할 수 있어요.";
 
     return;
+
+
     }
+
+
+    document.querySelector(".mobile_country_desc").textContent =
+    "국가를 선택하면 프로젝트 정보를 확인할 수 있어요.";
+
+    mobileCountrySelect.classList.add("active");
 
     mobileCountrySelect.style.display =
     window.innerWidth <= 1200 ? "block" : "none";
