@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* font */
+
+
+/* 한글 기본 */
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    color: #333;
+}
+
+/* 영문 */
+.font_inria{
+    font-family: "Inria Sans", sans-serif;
+}
+
+/* 손글씨 카피 */
+.font_nanum_pen{
+    font-family: "Nanum Pen Script", cursive;
+}
+
+
+
+.text_60 { font-size: 60px; }
+.text_56 { font-size: 56px; }
+.text_40 { font-size: 40px; }
+.text_35 { font-size: 35px; }
+.text_30 { font-size: 30px; }
+.text_25 { font-size: 25px; }
+.text_22 { font-size: 22px; }
+.text_20 { font-size: 20px; }
+.text_18 { font-size: 18px; }
+.text_16 { font-size: 16px; }
+.text_14 { font-size: 14px; }
+
+
+.medium { font-weight: 500; }
+.semi_bold{ font-weight: 600; }
+.bold{ font-weight: 700; }
+
+
+
+
+
+.main_hero_but,
+.country_link_but,
+.real_story_but,
+.how_to_start_card_but,
+.experience_cta_link,
+.project_detail_all_but,
+.project_detail_link,
+.tip_title_desc_2,
+.needs_card,
+.real_story_box_1,
+.real_story_in_con_1, 
+.real_story_in_con_2, 
+.real_story_box_3{
+    transition: 0.3S ease;
+}
+
+.main_hero_but:hover,
+.country_link_but_box:hover,
+.real_story_but_box:hover,
+.how_to_start_card_but_box:hover{
+    background-color: #FFF;
+    color: #53B8FF;
+    border: 1px solid #53B8FF;
+}
+
+.country_link_but_box:hover .country_link_but,
+.real_story_but_box:hover .real_story_but,
+.how_to_start_card_but_box:hover .how_to_start_card_but {
+    color: #53B8FF;
+}
+
+
+.experience_cta_link:hover,
+.project_detail_all_but:hover,
+.project_detail_link:hover,
+.tip_title_desc_2:hover{
+    color: #666;
+}
+
+
+.needs_card:hover,
+.real_story_box_1:hover,
+.real_story_in_con_1:hover, 
+.real_story_in_con_2:hover, 
+.real_story_box_3:hover{
+    transform: translateY(-5px);
+}

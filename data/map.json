@@ -1,0 +1,1607 @@
+{
+  "regions": [
+    {
+      "region": "europe",
+      "regionName": "유럽",
+      "countries": [
+        {
+          "id": "europe_01",
+          "country": "이탈리아",
+          "countryEn": "Italy",
+          "featured": true,
+          "position": {
+            "left": "33%",
+            "top": "73%"
+          },
+          "card": {
+            "cities": [
+              "피렌체",
+              "로마",
+              "밀라노",
+              "베네치아"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십",
+              "공예·디자인",
+              "요리·커피"
+            ],
+            "image": "./img/map_img_itaia.jpg"
+          },
+         "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84&areaKey=3&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_italy_project_01.jpg",
+      "title": "로마에서 이탈리아어 배우며 한달살기",
+      "desc": "이탈리아어를 배우며 로마의 라이프스타일을 직접 경험하는 한달살기",
+      "city": "로마",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/700"
+    },
+    {
+      "number": "02",
+      "type": "인턴십",
+      "image": "./img/detail_img_italy_project_02.jpg",
+      "title": "로마 NGO 마케팅 인턴십",
+      "desc": "NGO와 협력하여, 다양한 디지털 콘텐츠·마케팅 분야에서 실무 경험을 쌓을 수 있는 인턴쉽 프로젝트",
+      "city": "로마",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/607"
+    },
+    {
+      "number": "03",
+      "type": "공예·디자인",
+      "image": "./img/detail_img_italy_project_03.jpg",
+      "title": "피렌체에서 배우는 이탈리안 예술",
+      "desc": "예술의 도시 피렌체에서 다양한 회화와 조각 기법을 배우며 나만의 작품을 만들어보는 프로젝트",
+      "city": "피렌체",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/225"
+    },
+    {
+      "number": "04",
+      "type": "요리·커피",
+      "image": "./img/detail_img_italy_project_04.jpg",
+      "title": "밀라노에서 만나는 인생커피, 바리스타 과정",
+      "desc": "밀라네제 오리지날 카페 전문가 도전하기 프로젝트",
+      "city": "밀라노",
+      "period": "4주",
+      "link": "https://koreagapyear.com/ko/program/718"
+    }
+  ]    
+        },
+        {
+          "id": "europe_02",
+          "country": "프랑스",
+          "countryEn": "France",
+          "featured": true,
+          "position": {
+            "left": "25%",
+            "top": "65%"
+          },
+          "card": {
+            "cities": [
+              "파리",
+              "몽펠리에",
+              "보르도",
+              "니스",
+              "리옹"
+            ],
+            "projectTypes": [
+              "어학",
+              "요리·제과",
+              "문화재보존",
+              "인턴십"
+            ],
+            "image": "./img/map_img_fran.jpg"
+          }
+        },
+        {
+          "id": "europe_03",
+          "country": "스페인",
+          "countryEn": "Spain",
+          "featured": true,
+          "position": {
+            "left": "20.8%",
+            "top": "78%"
+          },
+          "card": {
+            "cities": [
+              "바르셀로나",
+              "마드리드",
+              "말라가",
+              "발렌시아"
+            ],
+            "projectTypes": [
+              "어학",
+              "봉사",
+              "고고학",
+              "공예"
+            ],
+            "image": "./img/map_img_spain.jpg"
+           
+          }
+        },
+        {
+          "id": "europe_04",
+          "country": "영국",
+          "countryEn": "United Kingdom",
+          "featured": true,
+          "position": {
+            "left": "23%",
+            "top": "52%"
+          },
+          "card": {
+            "cities": [
+              "런던",
+              "맨체스터",
+              "에든버러",
+              "옥스퍼드"
+            ],
+            "projectTypes": [
+              "어학",
+              "예술",
+              "축구",
+              "갭이어 스테이"
+            ],
+            "image": "./img/map_img_eng.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EC%98%81%EA%B5%AD&"
+          }
+        },
+        {
+          "id": "europe_05",
+          "country": "포르투갈",
+          "countryEn": "Portugal",
+          "featured": true,
+          "position": {
+              "left": "17%",
+              "top": "83%"
+          },
+          "card": {
+            "cities": [
+              "리스본",
+              "포르투",
+              "카스카이스"
+            ],
+            "projectTypes": [
+              "봉사",
+              "환경·동물",
+              "인턴십",
+              "해양"
+            ],
+            "image": "./img/map_img_protu.jpg"
+          }
+        },
+        {
+          "id": "europe_06",
+          "country": "그리스",
+          "countryEn": "Greece",
+          "featured": true,
+          "position": {
+            "left": "42%",
+            "top": "85%"
+          },
+          "card": {
+            "cities": [
+              "아테네",
+              "자킨토스"
+            ],
+            "projectTypes": [
+              "봉사",
+              "동물·환경",
+              "인턴십"
+            ],
+            "image": "./img/map_img_gree.jpg"
+          }
+        },
+        {
+          "id": "europe_07",
+          "country": "크로아티아",
+          "countryEn": "Croatia",
+          "featured": true,
+          "position": {
+            "left": "37%",
+            "top": "68%"
+          },
+          "card": {
+            "cities": [
+              "리예카",
+              "스플리트"
+            ],
+            "projectTypes": [
+              "봉사",
+              "환경·동물",
+              "해양",
+              "교육"
+            ],
+            "image": "./img/map_img_cro.jpg"
+          }
+        },
+        {
+          "id": "europe_08",
+          "country": "몰타",
+          "countryEn": "Malta",
+          "featured": false,
+          "position": {
+            "left": "35.5%",
+            "top": "90%"
+          },
+          "card": {
+            "cities": [
+              "발레타"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십"
+            ],
+            "image": "./img/map_img_malta.jpg"
+          }
+        },
+        {
+          "id": "europe_09",
+          "country": "아일랜드",
+          "countryEn": "Ireland",
+          "featured": false,
+          "position": {
+            "left": "18%",
+            "top": "49%"
+          },
+          "card": {
+            "cities": [
+              "코크",
+              "더블린"
+            ],
+            "projectTypes": [
+              "어학"
+            ],
+            "image": "./img/map_img_ireland.jpg"
+          }
+        },
+        {
+          "id": "europe_10",
+          "country": "루마니아",
+          "countryEn": "Romania",
+          "featured": false,
+          "position": {
+            "left": "45%",
+            "top": "67%"
+          },
+          "card": {
+            "cities": [
+              "트란실바니아"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육"
+            ],
+            "image": "./img/map_img_ruma.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EB%A3%A8%EB%A7%88%EB%8B%88%EC%95%84&"
+          }
+        },
+ {
+  "id": "europe_11",
+  "country": "아이슬란드",
+  "countryEn": "Iceland",
+  "featured": false,
+
+  "position": {
+    "left": "13%",
+    "top": "25%"
+  },
+
+  "card": {
+    "cities": [
+      "레이캬비크",
+      "셀포스"
+    ],
+    "projectTypes": [
+      "환경",
+      "생태마을"
+    ],
+    "image": "./img/map_img_ice.jpg"
+  },
+
+  "projectListLink": "https://koreagapyear.com/ko/program?title=%EC%95%84%EC%9D%B4%EC%8A%AC%EB%9E%80%EB%93%9C",
+
+  "projects": [
+    {
+      "number": "01",
+      "type": "환경",
+      "image": "./img/detail_img_iceland_project_01.jpg",
+      "title": "내 손으로 지키는 대자연! 아이슬란드 환경보호 프로젝트",
+      "desc": "대자연 아이슬란드에서 함께하는 환경보호 프로젝트",
+      "city": "레이캬비크",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/777"
+    },
+    {
+      "number": "02",
+      "type": "생태마을",
+      "image": "./img/detail_img_iceland_project_02.jpg",
+      "title": "아이슬란드 생태마을에서 한달살기하며 생태전문가되기",
+      "desc": "마을 공동체를 꾸려나가기 위해 다양한 방면으로 함께할 수 있는 색다른 한달살기",
+      "city": "셀포스",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/778"
+    }
+  ]
+},
+        
+        {
+          "id": "europe_12",
+          "country": "독일",
+          "countryEn": "Germany",
+          "featured": false,
+          "position": {
+            "left": "31%",
+            "top": "55%"
+          },
+          "card": {
+            "cities": [
+              "뮌헨",
+              "베를린"
+            ],
+            "projectTypes": [
+              "어학"
+            ],
+            "image": "./img/map_img_geme.jpg"
+          }
+        },
+        {
+          "id": "europe_13",
+          "country": "노르웨이",
+          "countryEn": "Norway",
+          "featured": false,
+          "position": {
+            "left": "31%",
+            "top": "32%"
+          },
+          "card": {
+            "cities": [
+              "릴레함메르"
+            ],
+            "projectTypes": [
+              "환경",
+              "교육"
+            ],
+            "image": "./img/map_img_nor.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4&"
+          }
+        },
+        {
+          "id": "europe_14",
+          "country": "덴마크",
+          "countryEn": "Denmark",
+          "featured": false,
+          "position": {
+            "left": "31%",
+            "top": "45%"
+          },
+          "card": {
+            "cities": [
+              "팍시"
+            ],
+            "projectTypes": [
+              "시민대학",
+              "한달살기"
+            ],
+            "image": "./img/map_img_den.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EB%8D%B4%EB%A7%88%ED%81%AC&"
+          }
+        },
+        {
+          "id": "europe_15",
+          "country": "조지아",
+          "countryEn": "Georgia",
+          "featured": false,
+          "position": {
+            "left": "60%",
+            "top": "75.5%"
+          },
+          "card": {
+            "cities": [
+              "그레미"
+            ],
+            "projectTypes": [
+              "와인·문화"
+            ],
+            "image": "./img/map_img_geo.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EC%A1%B0%EC%A7%80%EC%95%84&"
+          }
+        },
+        {
+          "id": "europe_16",
+          "country": "체코",
+          "countryEn": "Czechia",
+          "featured": false,
+          "position": {
+            "left": "36%",
+            "top": "58%"
+          },
+          "card": {
+            "cities": [
+              "프라하"
+            ],
+            "projectTypes": [
+              "영화"
+            ],
+            "image": "./img/map_img_che.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EC%B2%B4%EC%BD%94&"
+          }
+        },
+        {
+          "id": "europe_17",
+          "country": "네덜란드",
+          "countryEn": "Netherlands",
+          "featured": false,
+          "position": {
+            "left": "28%",
+            "top": "53%"
+          },
+          "card": {
+            "cities": [
+              "암스테르담"
+            ],
+            "projectTypes": [
+              "유럽여행",
+              "한달살기"
+            ],
+            "image": "./img/map_img_ne.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EB%84%A4%EB%8D%9C%EB%9E%80%EB%93%9C&"
+          }
+        },
+        {
+          "id": "europe_18",
+          "country": "벨기에",
+          "countryEn": "Belgium",
+          "featured": false,
+          "position": {
+            "left": "27.5%",
+            "top": "57%"
+          },
+          "card": {
+            "cities": [
+              "브뤼셀"
+            ],
+            "projectTypes": [
+              "초콜릿·인턴십"
+            ],
+            "image": "./img/map_img_bel.jpg",
+            "link": "https://koreagapyear.com/ko/program?keyword=[]&title=%EB%B2%A8%EA%B8%B0%EC%97%90&"
+          }
+        }
+      ]
+    },
+    {
+      "region": "africa",
+      "regionName": "아프리카",
+      "countries": [
+        {
+          "id": "africa_01",
+          "country": "남아프리카공화국",
+          "countryEn": "South Africa",
+          "featured": true,
+          "position": {
+            "left": "40%",
+            "top": "94%"
+          },
+          "card": {
+            "cities": [
+              "케이프타운",
+              "더반"
+            ],
+            "projectTypes": [
+              "어학",
+              "환경·해양",
+              "봉사"
+            ],
+            "image": "./img/map_img_nam.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EB%82%A8%EC%95%84%EA%B3%B5&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_nam_project_01.jpg",
+      "title": "쉼과 여유가 가득한 남아공 케이프타운에서 영어 배우기!",
+      "desc": "남아공의 사회와 비즈니스 환경에 대한 깊은 영어 지식",
+      "city": "케이프타운",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/711"
+    },
+    {
+      "number": "02",
+      "type": "환경·해양",
+      "image": "./img/detail_img_nam_project_02.jpg",
+      "title": "내 손으로 지키는 남아공의 빛나는 바다! 해양 보호 봉사 활동",
+      "desc": "남아공의 해안 도시에서 내 손으로 직접 해양 생태계를 지킬 수 있는 기회",
+      "city": "조지",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/716"
+    },
+    {
+      "number": "03",
+      "type": "봉사",
+      "image": "./img/detail_img_nam_project_03.jpg",
+      "title": "바다와 함께 자라는 아이들의 꿈! 남아공 케이프타운 서핑, 교육 봉사",
+      "desc": "케이프타운의 아이들과 함께 지내며, 서핑과 교육봉사를 함께 할 수 있는 프로젝트",
+      "city": "케이프타운",
+      "period": "4주",
+      "link": "https://koreagapyear.com/ko/program/740"
+    }
+     ]    
+        },
+        {
+          "id": "africa_02",
+          "country": "가나",
+          "countryEn": "Ghana",
+          "featured": true,
+          "position": {
+            "left": "29%",
+            "top": "50%"
+          },
+          "card": {
+            "cities": [
+              "아크라"
+            ],
+            "projectTypes": [
+              "교육",
+              "스포츠",
+              "봉사"
+            ],
+            "image": "./img/map_img_gana.jpg"
+        },
+         "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EA%B0%80%EB%82%98&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "교육",
+      "image": "./img/detail_img_gana_project_01.jpg",
+      "title": "아이들과 함께하는 사랑의 시간, 가나 아크라 아동 교육 프로젝트",
+      "desc": "가나 아크라의 아이들을 위한 선생님이 될 수 있는 특별한 기회",
+      "city": "아크라",
+      "period": "4주",
+      "link": "https://koreagapyear.com/ko/program/769"
+    },
+    {
+      "number": "02",
+      "type": "스포츠",
+      "image": "./img/detail_img_gana_project_02.jpg",
+      "title": "건강하게 자라나는 아이들의 꿈! 가나 아크라 스포츠 코치 프로젝트",
+      "desc": "배움의 기회가 적은 아이들이 훌륭한 선수로 성장하는 시간에 함께하기",
+      "city": "아크라",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/768"
+    },
+    {
+      "number": "03",
+      "type": "봉사",
+      "image": "./img/detail_img_gana_project_03.jpg",
+      "title": "가나 아크라 미술봉사",
+      "desc": "가나 아크라 미술 선생님 프로젝트",
+      "city": "아크라",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/770"
+    }
+     ]    
+        },
+        {
+          "id": "africa_03",
+          "country": "탄자니아",
+          "countryEn": "Tanzania",
+          "featured": true,
+          "position": {
+            "left": "46%",
+            "top": "68%"
+          },
+          "card": {
+            "cities": [
+              "잔지바르"
+            ],
+            "projectTypes": [
+              "교육",
+              "봉사"
+            ],
+            "image": "./img/map_img_tan.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%ED%83%84%EC%9E%90%EB%8B%88%EC%95%84&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "교육",
+      "image": "./img/detail_img_tan_project_01.jpg",
+      "title": "아프리카의 빛나는 미래를 위해! 탄자니아 잔지바르 아동교육 프로젝트",
+      "desc": "세상에서 가장 아름다운 섬 중 하나인 잔지바르에서 자라나는 아이들을 만나는 시간!",
+      "city": "잔지바르",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/776"
+    },
+    {
+      "number": "02",
+      "type": "봉사",
+      "image": "./img/detail_img_tan_project_02.jpg",
+      "title": "탄자니아 잔지바르 바다거북 봉사활동, 아프리카 동물보호 프로젝트",
+      "desc": "멸종위기에 처한 바다거북에게 안식처를 제공하기",
+      "city": "잔지바르",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/775"
+    }
+     ]    
+        },
+        {
+          "id": "africa_04",
+          "country": "우간다",
+          "countryEn": "Uganda",
+          "featured": true,
+          "position": {
+            "left": "44.5%",
+            "top": "57%"
+          },
+          "card": {
+            "cities": [
+              "캄팔라"
+            ],
+            "projectTypes": [
+              "인턴십",
+              "식수·지역사회"
+            ],
+            "image": "./img/map_img_ugan.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EC%9A%B0%EA%B0%84%EB%8B%A4&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "인턴십",
+      "image": "./img/detail_img_uganda_project_01.jpg",
+      "title": "하버드생과 함께 만들어가는 우간다 캄팔라 사회적기업 인턴십!",
+      "desc": "적정기술로 우간다에 깨끗한 물을 제공하는 사회적기업 활동",
+      "city": "캄팔라",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/432"
+    },
+    {
+      "number": "02",
+      "type": "식수·지역사회",
+      "image": "./img/detail_img_uganda_project_02.jpg",
+      "title": "하버드생과 함께하는 우간다 깨끗한 물 만들기 프로젝트",
+      "desc": "아프리카의 어려운 어린이들을 직접 도울 수 있는 기회",
+      "city": "캄팔라",
+      "period": "4주",
+      "link": "https://koreagapyear.com/ko/program/433"
+    }
+      ]    
+        },
+        {
+          "id": "africa_05",
+          "country": "케냐",
+          "countryEn": "Kenya",
+          "featured": true,
+          "position": {
+            "left": "47%",
+            "top": "57%"
+          },
+          "card": {
+            "cities": [
+              "케리초"
+            ],
+            "projectTypes": [
+              "봉사"
+            ],
+            "image": "./img/map_img_ke.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EC%BC%80%EB%83%90&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "봉사",
+      "image": "./img/map_img_ke.jpg",
+      "title": "아프리카 케냐 마을공동체 활성화 프로젝트, 아프리카 봉사활동!",
+      "desc": "적정기술로 우간다에 깨끗한 물을 제공하는 사회적기업 활동",
+      "city": "케리초",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/57"
+    }
+      ]    
+        },
+        {
+          "id": "africa_06",
+          "country": "보츠와나",
+          "countryEn": "Botswana",
+          "featured": false,
+          "position": {
+            "left": "40%",
+            "top": "85%"
+          },
+          "card": {
+            "cities": [
+              "가보론"
+            ],
+            "projectTypes": [
+              "트레킹·여행"
+            ],
+            "image": "./img/map_img_voch.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EB%B3%B4%EC%B8%A0%EC%99%80%EB%82%98&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "트레킹·여행",
+      "image": "./img/map_img_voch.png",
+      "title": "가장 생생하고 안전하게 즐기는 아프리카, 보츠와나 트럭킹!",
+      "desc": "트럭을 타고 나미비아 전역을 돌아다니며 신비한 자연을 몸소 느끼는 프로젝트",
+      "city": "가보론",
+      "period": "2주",
+      "link": "https://koreagapyear.com/ko/program/664"
+    }
+      ]    
+        },
+        {
+          "id": "africa_07",
+          "country": "나미비아",
+          "countryEn": "Namibia",
+          "featured": false,
+          "position": {
+            "left": "37%",
+            "top": "85%"
+          },
+          "card": {
+            "cities": [
+              "빈트후크"
+            ],
+            "projectTypes": [
+              "트레킹·여행"
+            ],
+            "image": "./img/map_img_nami.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EB%82%98%EB%AF%B8%EB%B9%84%EC%95%84&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "트레킹·여행",
+      "image": "./img/detail_img_nami_project_01.jpg",
+      "title": "아프리카 모험의 첫 시작, 나미비아 트럭킹! 여행! 모험!",
+      "desc": "트럭을 타고 나미비아 전역을 돌아다니며 신비한 자연을 몸소 느끼는 프로젝트",
+      "city": "빈트후크",
+      "period": "11일",
+      "link": "https://koreagapyear.com/ko/program/203"
+    }
+      ]    
+        },
+        {
+          "id": "africa_08",
+          "country": "모로코",
+          "countryEn": "Morocco",
+          "featured": false,
+          "position": {
+            "left": "25.9%",
+            "top": "23.4%"
+          },
+          "card": {
+            "cities": [
+              "마라케시"
+            ],
+            "projectTypes": [
+              "여행·문화"
+            ],
+            "image": "./img/map_img_moro.jpg"
+          },
+         "projectListLink": "https://koreagapyear.com/ko/program?category=%EB%B4%89%EC%82%AC%EC%97%AC%ED%96%89&keyword=[]&minP=0&maxP=2000&title=%EC%BD%94%EC%8A%A4%ED%83%80%EB%A6%AC%EC%B9%B4&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "여행·문화",
+      "image": "./img/detail_img_moro_project_01.jpg",
+      "title": "낯선 모로코, 황홀한 사막 그리고 공정한 세계 9박 11일의 여정",
+      "desc": "로컬 카이드, 지역민과 따뜻하게 만나는 공정여행",
+      "city": "마라케시",
+      "period": "11일",
+      "link": "https://koreagapyear.com/ko/program/749"
+    }
+  ]
+}
+      ]
+    },
+
+    {
+      "region": "north_america",
+      "regionName": "북아메리카",
+      "countries": [
+        {
+          "id": "north_america_01",
+          "country": "미국",
+          "countryEn": "United States",
+          "featured": true,
+          "position": {
+            "left": "32.5%",
+            "top": "56%"
+          },
+          "card": {
+            "cities": [
+              "하와이",
+              "필라델피아",
+              "올랜도",
+              "로스앤젤레스",
+              "시애틀",
+              "산타바바라",
+              "마이애미",
+              "뉴욕"
+            ],
+            "projectTypes": [
+              "어학",
+              "환경·동물",
+              "여행·문화"
+            ],
+            "image": "./img/map_img_ame.jpg"
+        },
+            "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EB%AF%B8%EA%B5%AD&",
+            "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_ame_project_01.jpg",
+      "title": "세계를 움직이는 도시 I♥NY 뉴욕 맨해튼에서 영어 배우기",
+      "desc": "뉴욕의 심장 맨해튼에서 영어를 공부하는 프로젝트",
+      "city": "뉴욕",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/143"
+    },
+    {
+      "number": "02",
+      "type": "환경·동물",
+      "image": "./img/detail_img_ame_project_02.jpg",
+      "title": "내인생의 와일드 로드, 미국 서부 캘리포니아에서 환경보존 프로젝트",
+      "desc": "다양한 국적의 봉사자들과 함께하는 환경 보존 봉사활동",
+      "city": "캘리포니아",
+      "period": "16주",
+      "link": "https://koreagapyear.com/ko/program/91"
+    },
+    {
+      "number": "03",
+      "type": "여행·문화",
+      "image": "./img/detail_img_ame_project_03.jpg",
+      "title": "미국인이 사랑하는 뜨거운 휴양지, 마이애미 비치에서 한달살기",
+      "desc": "플로리다의 휴양도시 마이애미 비치에서 진행되는 장기 여행 프로젝트",
+      "city": "마이애미",
+      "period": "4주",
+      "link": "https://koreagapyear.com/ko/program/164"
+    }
+      ]
+        },
+        {
+          "id": "north_america_02",
+          "country": "캐나다",
+          "countryEn": "Canada",
+          "featured": true,
+          "position": {
+            "left": "32.5%",
+            "top": "39.5%"
+          },
+          "card": {
+            "cities": [
+              "밴쿠버",
+              "토론토",
+              "캘거리"
+            ],
+            "projectTypes": [
+              "어학",
+              "워킹홀리데이",
+              "환경·동물"
+            ],
+            "image": "./img/map_img_cana.jpg"
+          },
+         "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%EC%BA%90%EB%82%98%EB%8B%A4&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_canada_project_01.jpg",
+      "title": "자연과 도시가 아름다운 캐나다 밴쿠버에서 배우는 비즈니스 영어!",
+      "desc": "비즈니스 실무 영어를 배우게 되는 어학 프로그램",
+      "city": "벤쿠버",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/677"
+    },
+    {
+      "number": "02",
+      "type": "워킹홀리데이",
+      "image": "./img/detail_img_canada_project_02.jpg",
+      "title": "한국에서 일자리를 확보한 후 출국하는 캐나다에서의 워킹홀리데이",
+      "desc": "북미 최대의 스키장 휘슬러 블랙콤에서 스키와 스노우보드를 즐기는 캐나다 워킹홀리데이",
+      "city": "벤쿠버",
+      "period": "24주과정",
+      "link": "https://koreagapyear.com/ko/program/363"
+    },
+    {
+      "number": "03",
+      "type": "환경·동물",
+      "image": "./img/detail_img_canada_project_03.jpg",
+      "title": "새들에게 날개를 달아 주는 캐나다 밴쿠버 야생동물 보호 프로젝트",
+      "desc": "동물들이 야생으로 복귀하는 과정을 돕는 봉사활동",
+      "city": "벤쿠버",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/771"
+    }
+     ]    
+        },
+        {
+          "id": "north_america_03",
+          "country": "코스타리카",
+          "countryEn": "Costa Rica",
+          "featured": false,
+          "position": {
+            "left": "37.6%",
+            "top": "92.3%"
+          },
+          "card": {
+            "cities": [
+              "산호세"
+            ],
+            "projectTypes": [
+              "환경·동물",
+              "해양"
+            ],
+            "image": "./img/map_img_cos.jpg"
+          },
+         "projectListLink": "https://koreagapyear.com/ko/program?category=%EB%B4%89%EC%82%AC%EC%97%AC%ED%96%89&keyword=[]&minP=0&maxP=2000&title=%EC%BD%94%EC%8A%A4%ED%83%80%EB%A6%AC%EC%B9%B4&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "환경·동물",
+      "image": "./img/detail_img_cos_project_01.jpg",
+      "title": "향기로운 커피와 함께하는 코스타리카 산호세 친환경 팜스테이",
+      "desc": "코스타리카의 친환경 커피 농장에서 전반적인 커피 산업을 경험하며 일상 보내기",
+      "city": "산호세",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/762"
+    },
+    {
+      "number": "02",
+      "type": "해양",
+      "image": "./img/detail_img_cos_project_02.jpg",
+      "title": "코스타리카 산호세에서 바다거북의 해변을 지키기 프로젝트",
+      "desc": "각종 환경 문제로 인해 멸종 위기를 겪고있는 바다거북의 터전 지키기",
+      "city": "산호세",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/761"
+    }
+  ]
+}
+      ]
+    },
+
+    {
+      "region": "south_america",
+      "regionName": "남아메리카",
+      "countries": [
+        {
+          "id": "south_america_01",
+          "country": "아르헨티나",
+          "countryEn": "Argentina",
+          "featured": true,
+          "position": {
+            "left": "33%",
+            "top": "70%"
+          },
+          "card": {
+            "cities": [
+              "부에노스아이레스",
+              "코르도바",
+              "푸에르토마드린"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십",
+              "환경·동물"
+            ],
+            "image": "./img/map_img_arhen.jpg"
+        },
+          "projectListLink": "https://koreagapyear.com/ko/program?title=%EC%95%84%EB%A5%B4%ED%97%A8%ED%8B%B0%EB%82%98&keyword=[]&minP=0&maxP=2000&",
+          "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_arhen_project_01.jpg",
+      "title": "열정 넘치는 젊음의 도시, 아르헨티나 코르도바에서 스페인어를!",
+      "desc": "활기넘치는 대학 캠퍼스 분위기의 도시에서 스페인어를 배울 수 있는 프로젝트",
+      "city": "코르도바",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/114"
+    },
+    {
+      "number": "02",
+      "type": "인턴십",
+      "image": "./img/detail_img_arhen_project_02.jpg",
+      "title": "아르헨티나 부에노스아이레스에서 문화 예술 디자인 인턴십!",
+      "desc": "문화 예술 분야 기관/기업에서 인턴십을 하며 업무 능력과 스페인어를 동시에 기를 수 있는 프로젝트",
+      "city": "부에노스아이레스",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/190"
+    },
+    {
+      "number": "03",
+      "type": "환경·동물",
+      "image": "./img/detail_img_arhen_project_03.jpg",
+      "title": "파도소리와 함께하는 아르헨티나 푸에르토마드린 고래관찰대 봉사활동!",
+      "desc": "남미대륙에서 가장 아름다운 자연환경을 품은 푸에르토 마드린에서 야생동물의 서식을 관찰하고 환경을 보호하는 봉사활동",
+      "city": "푸에르토마드린",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/126"
+    }
+      ]
+
+    },
+        {
+          "id": "south_america_02",
+          "country": "칠레",
+          "countryEn": "Chile",
+          "featured": true,
+          "position": {
+            "left": "29.3%",
+            "top": "60%"
+          },
+          "card": {
+            "cities": [
+              "산티아고",
+              "탈카"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십",
+              "환경·농업"
+            ],
+            "image": "./img/map_img_chille.jpg"
+          },
+         "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%EC%B9%A0%EB%A0%88&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_chille_project_01.jpg",
+      "title": "칠레 산티아고에서 스페인어를! 스페인어 어학연수",
+      "desc": "칠레에서 스페인어를 배우며 남미의 역동적인 삶을 느끼는 프로젝트",
+      "city": "산티아고",
+      "period": "16주",
+      "link": "https://koreagapyear.com/ko/program/109"
+    },
+    {
+      "number": "02",
+      "type": "인턴십",
+      "image": "./img/detail_img_chille_project_02.jpg",
+      "title": "글로벌 인재가 되는 첫걸음, 칠레 산티아고 인턴십!",
+      "desc": " 자신의 관심사와 성향에 맞는 글로벌 인턴십 활동과 스페인어 배우기",
+      "city": "산티아고",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/59"
+    },
+    {
+      "number": "03",
+      "type": "환경·농업",
+      "image": "./img/detail_img_chille_project_03.jpg",
+      "title": "아름다운 자연 속 칠레 탈카 팜스테이!",
+      "desc": "잠시 문명에서 떨어져 자연속에서 살아보기",
+      "city": "탈카",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/62"
+    }
+      ]
+    },
+
+        {
+          "id": "south_america_03",
+          "country": "페루",
+          "countryEn": "Peru",
+          "featured": true,
+          "position": {
+            "left": "26%",
+            "top": "45%"
+          },
+          "card": {
+            "cities": [
+              "쿠스코",
+              "리마"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십",
+              "여행·문화"
+            ],
+            "image": "./img/map_img_peru.jpg"
+          },
+         "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%ED%8E%98%EB%A3%A8&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_peru_project_01.jpg",
+      "title": "고대로 가는 길 마추픽추, 페루 쿠스코에서 스페인어를!",
+      "desc": "전세계 여행자들이 모이는 곳에 머물며 스페인어를 배우고 남미여행을 시작해보세요!",
+      "city": "쿠스코",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/121"
+    },
+    {
+      "number": "02",
+      "type": "인턴십",
+      "image": "./img/detail_img_peru_project_02.jpg",
+      "title": "페루 쿠스코 의료/간호 인턴십",
+      "desc": "차별화된 나만의 커리어를 쌓고 경험의 폭을 넓히고 싶은 의학 관련 전공자들을 위한 인턴십",
+      "city": "쿠스코",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/1138"
+    },
+    {
+      "number": "03",
+      "type": "여행·문화",
+      "image": "./img/detail_img_peru_project_03.jpg",
+      "title": "전세계 청년들과 함께 하는 남미 버스 여행",
+      "desc": "24일 동안 버스와 비행기를 타고 남미 주요 도시를 여행하는 프로젝트",
+      "city": "페루, 리마",
+      "period": "4주",
+      "link": "https://koreagapyear.com/ko/program/281"
+    }
+  ]
+}
+      ]
+    },
+     { 
+      "region": "oceania",
+      "regionName": "오세아니아",
+      "countries": [
+        {
+          "id": "oceania_01",
+          "country": "호주",
+          "countryEn": "Australia",
+          "featured": true,
+          "position": {
+            "left": "40%",
+            "top": "52%"
+          },
+          "card": {
+            "cities": [
+              "멜버른",
+              "시드니",
+              "브리즈번",
+              "애들레이드",
+              "퍼스",
+              "누사"
+            ],
+            "projectTypes": [
+              "어학",
+              "워킹홀리데이",
+              "인턴십",
+              "직업체험"
+            ],
+            "image": "./img/map_img_aus.jpg"
+        },
+        "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%ED%98%B8%EC%A3%BC&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_aus_project_01.jpg",
+      "title": "활기차고 자유로운 분위기의 호주 브리즈번에서 영어 배우기!",
+      "desc": "다양한 인종만큼이나 활기차고 자유로운 분위기의 브리즈번에서 영어실력을 향상시킬 수 있는 프로젝트",
+      "city": "브리즈번",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/621"
+    },
+    {
+      "number": "02",
+      "type": "워킹홀리데이",
+      "image": "./img/detail_img_aus_project_02.jpg",
+      "title": "호주 시드니에서 영어와 워킹홀리데이를 동시에! 쉽게! 편하게!",
+      "desc": "영어공부와 동시에 워킹홀리데이를 위한 구직 서포트를 받는 프로젝트",
+      "city": "시드니",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/271"
+    },
+    {
+      "number": "03",
+      "type": "인턴십",
+      "image": "./img/detail_img_aus_project_03.jpg",
+      "title": "내가 직접 경영하는 호주 시드니 레스토랑 매니지먼트 인턴십!",
+      "desc": "본인이 운영하고 싶은 스타일 대로 직접 경영할 수 있는 레스토랑 인턴십",
+      "city": "시드니",
+      "period": "24주과정",
+      "link": "https://koreagapyear.com/ko/program/438"
+    },
+    {
+      "number": "04",
+      "type": "직업체험",
+      "image": "./img/detail_img_aus_project_04.jpg",
+      "title": "전세계에서 통하는 호주 헤어디자이너 교육 과정 in 호주 멜버른",
+      "desc": "헤어디자이너로 호주 이민을 준비하고 있는 사람에게 강력 추천하는 프로그램",
+      "city": "멜버른",
+      "period": "1년과정",
+      "link": "https://koreagapyear.com/ko/program/490"
+    }
+     ]    
+        },
+
+        {
+          "id": "oceania_02",
+          "country": "뉴질랜드",
+          "countryEn": "New Zealand",
+          "featured": true,
+          "position": {
+            "left": "66%",
+            "top": "78%"
+          },
+          "card": {
+            "cities": [
+              "오클랜드"
+            ],
+            "projectTypes": [
+              "어학",
+              "워킹홀리데이",
+              "환경·농업"
+            ],
+            "image": "./img/map_img_new.jpg"
+          },
+        "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&title=%EB%89%B4%EC%A7%88%EB%9E%9C%EB%93%9C&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_new_project_01.jpg",
+      "title": "최상의 교육과 환상적인 모험을 동시에! 청소년을 위한 뉴질랜드 오클랜드 어학연수",
+      "desc": "주제와 난이도 모두 청소년의 눈높이에 맞춘 청소년 대상 어학연수 프로젝트",
+      "city": "오클랜드",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/343"
+    },
+    {
+      "number": "02",
+      "type": "워킹홀리데이",
+      "image": "./img/detail_img_new_project_02.jpg",
+      "title": "뉴질랜드 오클랜드에서 워킹홀리데이로 영어와 일 모두 도전하기!",
+      "desc": "힐링이 가득한 도시 오클랜드에서 워킹홀리데이로 취업하는 잡트레이닝 프로젝트",
+      "city": "오클랜드",
+      "period": "16주",
+      "link": "https://koreagapyear.com/ko/program/734"
+    },
+    {
+      "number": "03",
+      "type": "환경·농업",
+      "image": "./img/detail_img_new_project_03.jpg",
+      "title": "전세계 친구들과 뉴질랜드 자연 속에서 신나게 환경 보존 프로젝트",
+      "desc": "뉴질랜드 전역에서 환경 보존을 위한 봉사활동을 하는 프로젝트",
+      "city": "오클랜드",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/273"
+    }
+  ]
+}
+      ]
+    },
+    {
+      "region": "asia",
+      "regionName": "아시아",
+      "countries": [
+        {
+          "id": "asia_01",
+          "country": "대한민국",
+          "countryEn": "South Korea",
+          "featured": true,
+          "position": {
+            "left": "58%",
+            "top": "43%"
+          },
+          "card": {
+            "cities": [
+              "서울",
+              "제주",
+              "전주",
+              "강진",
+              "보령",
+              "부산",
+              "광주",
+              "경주",
+              "대전",
+              "구리",
+              "화순",
+              "목포",
+              "태안",
+              "청풍",
+              "곡성",
+              "양양",
+              "속초",
+              "삼척",
+              "봉화",
+              "동해"
+            ],
+            "projectTypes": [
+              "한달살기",
+              "로컬체험",
+              "인턴십",
+              "교육",
+              "환경·봉사",
+              "공예·창작",
+              "서핑·해양",
+              "농촌체험"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_02",
+          "country": "태국",
+          "countryEn": "Thailand",
+          "featured": true,
+          "position": {
+            "left": "45%",
+            "top": "63%"
+          },
+          "card": {
+            "cities": [
+              "치앙마이",
+              "방콕",
+              "후아힌",
+              "푸켓"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육",
+              "동물·환경",
+              "인턴십",
+              "문화체험",
+              "무에타이"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_03",
+          "country": "베트남",
+          "countryEn": "Vietnam",
+          "featured": true,
+          "position": {
+            "left": "50.5%",
+            "top": "65%"
+          },
+          "card": {
+            "cities": [
+              "하노이",
+              "호치민",
+              "판티엣"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육",
+              "의료·간호",
+              "인턴십",
+              "문화체험",
+              "스포츠"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_04",
+          "country": "인도네시아",
+          "countryEn": "Indonesia",
+          "featured": true,
+          "position": {
+            "left": "53%",
+            "top": "85%"
+          },
+          "card": {
+            "cities": [
+              "발리"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육",
+              "환경·동물",
+              "인턴십",
+              "문화체험",
+              "해양"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_05",
+          "country": "캄보디아",
+          "countryEn": "Cambodia",
+          "featured": true,
+          "position": {
+            "left": "49%",
+            "top": "66.5%"
+          },
+          "card": {
+            "cities": [
+              "프놈펜"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육",
+              "의료",
+              "인턴십",
+              "NGO",
+              "음악"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_06",
+          "country": "필리핀",
+          "countryEn": "Philippines",
+          "featured": true,
+          "position": {
+            "left": "59%",
+            "top": "66.5%"
+          },
+          "card": {
+            "cities": [
+              "세부",
+              "팔라완"
+            ],
+            "projectTypes": [
+              "어학",
+              "봉사",
+              "교육",
+              "환경·동물",
+              "해양"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_07",
+          "country": "일본",
+          "countryEn": "Japan",
+          "featured": true,
+          "position": {
+            "left": "64%",
+            "top": "43%"
+          },
+          "card": {
+            "cities": [
+              "도쿄",
+              "삿포로",
+              "후쿠오카",
+              "교토",
+              "오사카"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십",
+              "문화체험",
+              "워킹홀리데이"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_08",
+          "country": "라오스",
+          "countryEn": "Laos",
+          "featured": false,
+          "position": {
+            "left": "46.5%",
+            "top": "59%"
+          },
+          "card": {
+            "cities": [
+              "방비엥",
+              "비엔티안",
+              "루앙프라방"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육",
+              "환경·동물",
+              "문화·요리"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_09",
+          "country": "인도",
+          "countryEn": "India",
+          "featured": true,
+          "position": {
+            "left": "32%",
+            "top": "53%"
+          },
+          "card": {
+            "cities": [
+              "자이푸르",
+              "고아",
+              "바라나시"
+            ],
+            "projectTypes": [
+              "봉사",
+              "교육",
+              "의료·간호",
+              "동물보호",
+              "문화·음악",
+              "건축"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_10",
+          "country": "중국",
+          "countryEn": "China",
+          "featured": false,
+          "position": {
+            "left": "46.5%",
+            "top": "43%"
+          },
+          "card": {
+            "cities": [
+              "상하이",
+              "계림"
+            ],
+            "projectTypes": [
+              "어학",
+              "문화체험",
+              "인턴십"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_11",
+          "country": "말레이시아",
+          "countryEn": "Malaysia",
+          "featured": false,
+          "position": {
+            "left": "47.4%",
+            "top": "74.8%"
+          },
+          "card": {
+            "cities": [
+              "쿠알라룸푸르"
+            ],
+            "projectTypes": [
+              "어학",
+              "문화체험"
+            ],
+            "image": "",
+            "link": ""
+          }
+        },
+        {
+          "id": "asia_12",
+          "country": "싱가포르",
+          "countryEn": "Singapore",
+          "featured": false,
+          "position": {
+            "left": "48.5%",
+            "top": "76.5%"
+          },
+          "card": {
+            "cities": [
+              "싱가포르"
+            ],
+            "projectTypes": [
+              "어학",
+              "인턴십",
+              "문화체험"
+            ],
+            "image": "",
+            "link": ""
+          }
+        }
+      ]
+    }
+  ]
+}

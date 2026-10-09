@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국갭이어</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@300;400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/st.css">     
+</head>
+<body>
+     <header class="main_header">
+        <div class="header_top">
+            <div class="header_inner">
+               <h1 class="logo">
+                   <a href="#">
+                      <img src="./img/logo.png" alt="한국갭이어">
+                   </a>
+                </h1>
+                <div class="header_spacer"></div>
+                <nav class="main_menu">
+                   <ul>
+                       <li><a href="#" class="text_18">한국갭이어 소개</a></li>
+                       <li><a href="#" class="text_18">갭이어 프로젝트</a></li>
+                       <li><a href="#" class="text_18">갭이어 컨설팅</a></li>
+                       <li><a href="#" class="text_18">문의하기</a></li>
+                    </ul>
+                </nav>
+                <div class="member_menu">
+                    <a href="https://koreagapyear.com/ko/login">로그인</a>
+                    <div class="menu_border"></div>
+                    <a href="https://koreagapyear.com/ko/join">회원가입</a>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+                  <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mega_menu">
+          <div class="mega_inner">
+           <div class="mega_cols">
+            <ul class="mega_sub_menu">
+                <li><a href="https://koreagapyear.com/ko/aboutUs/introduction">한국갭이어 소개</a></li>
+                <li><a href="https://koreagapyear.com/ko/aboutUs/impact">사회적임팩트</a></li>
+                <li><a href="https://koreagapyear.com/ko/aboutUs/mentioned">언론보도</a></li>
+                <li><a href="https://koreagapyear.com/ko/support/notice">공지사항</a></li>
+                <li><a href="https://koreagapyear.com/ko/aboutUs/location">오시는길</a></li>
+            </ul>
+            <ul class="mega_sub_menu">
+                <li><a href="https://koreagapyear.com/ko/program">해외 프로젝트</a></li>
+                <li><a href="https://koreagapyear.com/ko/program?keyword=[]&title=%ED%95%9C%EA%B5%AD&">국내 프로젝트</a></li>
+                <li><a href="https://koreagapyear.com/ko/university/introduction">갭이어 대학</a></li>
+                <li><a href="https://koreagapyear.com/ko/story">프로젝트 후기</a></li>
+            </ul>
+            <ul class="mega_sub_menu">
+                <li><a href="https://koreagapyear.com/ko/program/70">갭이어 컨설팅</a></li>
+                <li><a href="https://koreagapyear.com/ko/academy">갭이어 설계하기</a></li>
+                <li><a href="https://koreagapyear.com/ko/aboutUs/tip">갭이어 팁</a></li>
+            </ul>
+            <ul class="mega_sub_menu">
+                <li><a href="https://koreagapyear.com/ko/support/faq">FAQ</a></li>
+                <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fpf.kakao.com%2F_SRxerl%2Fchat#login">1:1 문의</a></li>
+                <li><a href="https://koreagapyear.com/ko/support/proposal">프로젝트 제안</a></li>
+            </ul>
+           </div> 
+          </div>
+        </div>    
+     </header>
+     <!-- 모바일 메뉴 -->
+     <div class="nav_overlay" id="overlay"></div>
+     <nav class="mobile_nav" id="mobileNav">
+        <div class="mobile_nav_top">
+          <span class="m_logo">Korea Gapyear</span>
+        </div>
+        <div class="m_menu">
+             <div class="m_menu_item">
+               <button class="m_menu_head">한국갭이어 소개 <span class="arrow"></span></button>
+               <div class="m_submenu">
+                   <a href="https://koreagapyear.com/ko/aboutUs/introduction">한국갭이어 소개</a>
+                   <a href="https://koreagapyear.com/ko/aboutUs/impact">사회적임팩트</a>
+                   <a href="https://koreagapyear.com/ko/aboutUs/mentioned">언론보도</a>
+                   <a href="https://koreagapyear.com/ko/support/notice">공지사항</a>
+                   <a href="https://koreagapyear.com/ko/aboutUs/location">오시는길</a>
+                 </div>
+             </div>
+             <div class="m_menu_item">
+                <button class="m_menu_head">갭이어 프로젝트 <span class="arrow"></span></button>
+                <ul class="m_submenu">
+                  <a href="https://koreagapyear.com/ko/program">해외 프로젝트</a>
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&title=%ED%95%9C%EA%B5%AD&">국내 프로젝트</a>
+                  <a href="https://koreagapyear.com/ko/university/introduction">갭이어 대학</a>
+                  <a href="https://koreagapyear.com/ko/story">프로젝트 후기</a>
+                </ul>
+             </div>
+             <div class="m_menu_item">
+                <button class="m_menu_head">갭이어 컨설팅 <span class="arrow"></span></button>
+                <ul class="m_submenu">
+                  <li><a href="https://koreagapyear.com/ko/program/70">갭이어 컨설팅</a></li>
+                  <li><a href="https://koreagapyear.com/ko/academy">갭이어 설계하기</a></li>
+                  <li><a href="https://koreagapyear.com/ko/aboutUs/tip">갭이어 팁</a></li>
+                </ul>
+             </div>
+             <div class="m_menu_item">
+                <button class="m_menu_head">문의하기 <span class="arrow"></span></button>
+                <ul class="m_submenu">
+                  <li><a href="https://koreagapyear.com/ko/support/faq">FAQ</a></li>
+                  <li><a href="https://pf.kakao.com/_SRxerl/chat">1:1 문의</a></li>
+                  <li><a href="https://koreagapyear.com/ko/support/proposal">프로젝트 제안</a></li>
+                </ul>
+             </div>
+        </div>
+        <div class="mobile_nav_bottom">
+          <a href="https://koreagapyear.com/ko/login" class="m_login">로그인</a>
+          <a href="https://koreagapyear.com/ko/join" class="m_join">회원가입</a>
+        </div>
+     </nav>
+     <main class="wrap">
+        <div class="main_hero">
+           <div class="main_hero_img">
+              <div class="main_hero_text">
+                 <h2 class="main_hero_text_title font_inria text_56 bold">GAP YEAR란?</h2>
+                 <p class="main_hero_text_desc text_25">학업이나 직장을 잠시 중단하거나 병행하면서,<br> 
+                                                        봉사·여행·진로탐색·교육·창업 등의 활동을 체험하며,<br> 
+                                                        흥미와 적성을 찾고 앞으로의 진로를 설정하는 기간.</p>
+                 <div class="main_hero_but_box">
+                   <a href="https://koreagapyear.com/ko/aboutUs/introduction" class="main_hero_but text_18">갭이어 알아보기 →</a>
+                   <a href="https://koreagapyear.com/ko/tool" class="main_hero_but text_18">내 프로젝트 찾기 →</a>   
+                 </div>
+               </div>
+           </div>
+        </div>
+        <div class="flow_gallery">
+           <div class="flow_gallery_track">
+              <div class="flow_gallery_group">
+                <img src="./img/gallery_01.jpg" alt="img">
+                <img src="./img/gallery_02.jpg" alt="img">
+                <img src="./img/gallery_03.jpg" alt="img">
+                <img src="./img/gallery_04.jpg" alt="img">
+                <img src="./img/gallery_05.jpg" alt="img">
+                <img src="./img/gallery_06.jpg" alt="img">
+                <img src="./img/gallery_07.jpg" alt="img">
+                <img src="./img/gallery_08.jpg" alt="img">
+              </div>
+              <div class="flow_gallery_group" aria-hidden="true">
+                <img src="./img/gallery_01.jpg" alt="img">
+                <img src="./img/gallery_02.jpg" alt="img">
+                <img src="./img/gallery_03.jpg" alt="img">
+                <img src="./img/gallery_04.jpg" alt="img">
+                <img src="./img/gallery_05.jpg" alt="img">
+                <img src="./img/gallery_06.jpg" alt="img">
+                <img src="./img/gallery_07.jpg" alt="img">
+                <img src="./img/gallery_08.jpg" alt="img">
+              </div>
+          </div>
+        </div>
+        <div class="content_section needs">
+            <div class="needs_background_box">
+               <div class="needs_text_box"> 
+                 <p class="section_en_title font_inria semi_bold"><span>N</span>EEDS</p>
+                 <h2 class="needs_title text_30">지금 필요한 건<br>
+                                                 무엇인가요?</h2>
+                 <p class="needs_title_dec text_20">나에게 맞는 갭이어를<br> 
+                                                선택하고 새로운 가능성을<br> 
+                                                열어보세요.</p>
+               </div> 
+               <div class="needs_card_box">
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&secondCategory=%EC%97%AC%EC%9C%A0%EC%99%80%20%ED%9A%8C%EB%B3%B5&" class="needs_card card_green">
+                     <div class="card_tape card_tape_green"></div>
+                     <div class="card_content">
+                        <div class="card_title_box">
+                           <img src="./img/need_icon_1.png" alt="icon">
+                           <h3>여유와 회복</h3>
+                        </div>
+                        <div class="card_title_line card_title_line_green"></div>
+                        <p class="text_18">지친 마음을 쉬게 하고,<br>
+                                           에너지를 되찾고 싶어요.</p>
+                        <div class="card_click_box">
+                            <span class="card_click card_click_green font_patrick text_25">Click
+                              <img src="./img/need_click_green.png" alt="icon">
+                            </span>  
+                        </div>
+                     </div>
+                  </a>
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&secondCategory=%EC%9E%90%EC%A1%B4%EA%B0%90%20%EC%9E%90%EC%8B%A0%EA%B0%90&" class="needs_card card_blue">
+                      <div class="card_tape card_tape_blue"></div>
+                      <div class="card_content">
+                        <div class="card_title_box">
+                           <img src="./img/need_icon_2.png" alt="icon">
+                           <h3>자기이해와 자신감</h3>
+                        </div>
+                        <div class="card_title_line card_title_line_blue"></div>
+                          <p class="text_18">나를 더 잘 이해하고,<br>
+                                             자존감을 지키고 싶어요.</p>
+                          <div class="card_click_box">
+                            <span class="card_click card_click_blue font_patrick text_25">Click
+                              <img src="./img/need_click_blue.png" alt="icon">
+                            </span>  
+                        </div>
+                      </div>
+                  </a>
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&secondCategory=%EC%83%88%EB%A1%9C%EC%9B%80%EA%B3%BC%20%EC%97%B4%EC%A0%95&" class="needs_card card_orange">
+                      <div class="card_tape card_tape_orange"></div>
+                      <div class="card_content">
+                          <div class="card_title_box">
+                              <img src="./img/need_icon_3.png" alt="icon">
+                              <h3>새로움과 도전</h3>
+                          </div>
+                          <div class="card_title_line card_title_line_orange"></div>
+                          <p class="text_18">새로운 경험으로,<br>
+                                             일상에 변화를 주고 싶어요.</p>
+                          <div class="card_click_box">
+                            <span class="card_click card_click_orange font_patrick text_25">Click
+                              <img src="./img/need_click_orange.png" alt="icon">
+                            </span>  
+                        </div>
+                      </div>
+                  </a> 
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&secondCategory=%EC%A7%84%EB%A1%9C%EC%99%80%20%EB%B0%A9%ED%96%A5&" class="needs_card card_blue">
+                      <div class="card_tape card_tape_blue"></div>
+                      <div class="card_content">
+                          <div class="card_title_box">
+                              <img src="./img/need_icon_4.png" alt="icon">
+                              <h3>진로와 방향</h3>
+                          </div>
+                          <div class="card_title_line card_title_line_blue"></div>
+                          <p class="text_18">앞으로의 진로를 탐색하고,<br>
+                                             나의 방향을 찾고 싶어요.</p>
+                          <div class="card_click_box">
+                            <span class="card_click card_click_blue font_patrick text_25">Click
+                              <img src="./img/need_click_blue.png">
+                            </span>  
+                         </div>
+                      </div>
+                  </a>
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&secondCategory=%EC%82%AC%EB%9E%91%20%EC%82%AC%EB%9E%8C%EA%B4%80%EA%B3%84&" class="needs_card card_purple">
+                      <div class="card_tape card_tape_purple"></div>
+                      <div class="card_content">
+                          <div class="card_title_box">
+                              <img src="./img/need_icon_5.png" alt="icon">
+                              <h3>관계와 연결</h3>
+                          </div>
+                          <div class="card_title_line card_title_line_purple"></div>
+                          <p class="text_18">새로운 사람들을 만나고,<br>
+                                             더 깊이 연결되고 싶어요.</p>
+                          <div class="card_click_box">
+                            <span class="card_click card_click_purple font_patrick text_25">Click
+                              <img src="./img/need_click_purple.png">
+                            </span>  
+                        </div>
+                      </div>
+                  </a>
+                  <a href="https://koreagapyear.com/ko/program?keyword=[]&minP=0&maxP=2000&secondCategory=%EC%A7%80%ED%98%9C%EC%99%80%20%EC%8B%A4%EB%A0%A5&" class="needs_card card_green">
+                     <div class="card_tape card_tape_green"></div>
+                     <div class="card_content">
+                        <div class="card_title_box">
+                           <img src="./img/need_icon_1.png" alt="icon">
+                           <h3>배움과 성장</h3>
+                        </div>
+                        <div class="card_title_line card_title_line_green"></div>
+                        <p class="text_18">새로운 지식과 기술을 배우고,<br>
+                                           한 단계 더 성장하고 싶어요.</p>
+                        <div class="card_click_box">
+                            <span class="card_click card_click_green font_patrick text_25">Click
+                              <img src="./img/need_click_green.png">
+                            </span>  
+                        </div>
+                     </div>
+                  </a>        
+               </div>
+            </div>
+        </div>
+        <div class="content_section experience">
+            <div class="experience_background_box"> 
+                <div class="experience_text_box">
+                   <p class="section_en_title font_inria semi_bold"><span>E</span>XPERIENCE</p>
+                   <h2 class="experience_title text_30">어떤 경험을<br>
+                                                        하고싶나요?</h2>
+                   <p class="experience_title_dec text_20">나에게 맞는 갭이어를<br> 
+                                                           선택하고 새로운 가능성을<br> 
+                                                           열어보세요.</p>
+                </div>
+                <div class="experience_card_box">
+                    <a href="https://koreagapyear.com/ko/program?category=%ED%95%9C%EB%8B%AC%EC%82%B4%EA%B8%B0%2F%ED%88%AC%EC%96%B4&keyword=[]&minP=0&maxP=2000&" class="experience_card experience_card_green">
+                       <div class="experience_card_inner">
+                         <div class="experience_card_front">
+                           <img src="./img/ex_img_1.jpg" alt="img">
+                           <p class="experience_card_title_green text_25 font_inria semi_bold">EXPLORE</p>
+                           <p class="experience_card_title text_20 semi_bold">여행하고 살아보기</p>
+                           <div class="experience_card_desc_box_green">
+                              <p class="experience_card_desc text_18">낯선 곳에서 일상을<br> 
+                                                                   바꿔보고 싶다면</p>
+                              <span>→</span>                                        
+                           </div> 
+                         </div>
+                         <div class="experience_card_back card_back_green">
+                             <img src="./img/ex_icon_1.png" alt="icon">
+                             <p class="experience_card_title_back text_25 font_inria semi_bold">EXPLORE</p>
+                             <p class="experience_card_desc_back text_18">익숙한 일상에서 벗어나<br>
+                                                                          새로운 지역의 생활과 문화를<br>
+                                                                          직접 경험해보세요.</p>
+                             <div class="experience_keyword_box keyword_box_green">
+                                <span>#한달살기</span>
+                                <span>#로컬체험</span>
+                                <span>#문화교류</span>
+                                <span>#여행</span>
+                             </div>
+                             <p class="experience_card_link">EXPLORE 프로젝트 보기 →</p>                                             
+                         </div>
+                       </div>                                        
+                    </a>
+                    <a href="https://koreagapyear.com/ko/program?category=%EC%96%B4%ED%95%99%EC%97%B0%EC%88%98&keyword=[]&minP=0&maxP=2000&" class="experience_card experience_card_blue">
+                       <div class="experience_card_inner">
+                         <div class="experience_card_front">
+                           <img src="./img/ex_img_2.jpg" alt="img">
+                           <p class="experience_card_title_blue text_25 font_inria semi_bold">LEARN</p>
+                           <p class="experience_card_title text_20 semi_bold">배우고 성장하기</p>
+                           <div class="experience_card_desc_box_blue">
+                              <p class="experience_card_desc text_18">새로운 지식과 기술을<br>
+                                                                   발견하고 싶다면</p>
+                             <span>→</span>                                        
+                           </div>
+                         </div>
+                         <div class="experience_card_back card_back_blue">
+                             <img src="./img/ex_icon_2.png" alt="icon">
+                             <p class="experience_card_title_back text_25 font_inria semi_bold">LEARN</p>
+                             <p class="experience_card_desc_back text_18">새로운 지식을 배우고<br>
+                                                                          나의 가능성을<br>
+                                                                          확장해보세요.</p>
+                             <div class="experience_keyword_box keyword_box_blue">
+                                <span>#어학</span>
+                                <span>#교육</span>
+                                <span>#캠프</span>
+                                <span>#프로젝트</span>
+                             </div>
+                             <p class="experience_card_link">LEARN 프로젝트 보기 →</p> 
+                         </div>
+                       </div>                                         
+                    </a>  
+                    <a href="https://koreagapyear.com/ko/program?category=%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%BB%A4%EB%A6%AC%EC%96%B4&keyword=[]&minP=0&maxP=2000&" class="experience_card experience_card_orange">
+                       <div class="experience_card_inner">
+                          <div class="experience_card_front">
+                            <img src="./img/ex_img_3.jpg" alt="img">
+                            <p class="experience_card_title_orange text_25 font_inria semi_bold">WORK</p>
+                            <p class="experience_card_title text_20 semi_bold">일하며 경험하기</p>
+                            <div class="experience_card_desc_box_orange">
+                                <p class="experience_card_desc text_18">진로와 적성을<br>
+                                                                        찾아보고 싶다면</p>
+                                <span>→</span>                                        
+                            </div> 
+                          </div>
+                          <div class="experience_card_back card_back_orange">
+                             <img src="./img/ex_icon_3.png" alt="icon">
+                             <p class="experience_card_title_back text_25 font_inria semi_bold">WORK</p>
+                             <p class="experience_card_desc_back text_18">관심 있는 분야에서<br>
+                                                                          일하며 실무경험과<br>
+                                                                          역량을 쌓아보세요.</p>
+                             <div class="experience_keyword_box keyword_box_orange">
+                                <span>#인턴쉽</span>
+                                <span>#직무경험</span>
+                                <span>#전문과정</span>
+                                <span>#워크숍</span>
+                             </div>
+                             <p class="experience_card_link">WORK 프로젝트 보기 →</p> 
+                          </div>
+                       </div>                                              
+                    </a>  
+                    <a href="https://koreagapyear.com/ko/program?category=%EB%B4%89%EC%82%AC%EC%97%AC%ED%96%89&keyword=[]&minP=0&maxP=2000&" class="experience_card experience_card_purple">
+                       <div class="experience_card_inner">
+                         <div class="experience_card_front">
+                             <img src="./img/ex_img_4.jpg" alt="img">
+                             <p class="experience_card_title_purple text_25 font_inria semi_bold">VOLUNTEER</p>
+                             <p class="experience_card_title text_20 semi_bold">참여하고 기여하기</p>
+                             <div class="experience_card_desc_box_purple">
+                                 <p class="experience_card_desc text_18">사람·지역과 연결되며<br>
+                                                                         성장하고 싶다면</p>
+                                 <span>→</span>                                        
+                             </div>
+                         </div>
+                         <div class="experience_card_back card_back_purple">
+                             <img src="./img/ex_icon_4.png" alt="icon">
+                             <p class="experience_card_title_back text_25 font_inria semi_bold">VOLUNTEER</p>
+                             <p class="experience_card_desc_back text_18">지역과 사람들을 위해<br>
+                                                                          의미있는 활동에<br> 
+                                                                          참여해보세요.</p>
+                             <div class="experience_keyword_box keyword_box_purple">
+                                <span>#봉사여행</span>
+                                <span>#지역봉사</span>
+                                <span>#교육봉사</span>
+                                <span>#환경보호</span>
+                             </div>
+                             <p class="experience_card_link">VOLUNTEER 프로젝트 보기 →</p> 
+                          </div>
+                         </div>
+                        </a>  
+                    </div>                                           
+                </div>
+            <div class="experience_cta_box">
+                <p class="experience_cta_title font_nanum_pen text_25">"당신에게 맞는 갭이어는 무엇일까요?"</p>
+                <a href="https://koreagapyear.com/ko/program" class="experience_cta_link text_18 semi_bold">전체 프로젝트 둘러보기 →</a>
+            </div>  
+        </div>
+        <div class="content_section where_to_go">
+            <div class="where_to_go_title_box">
+                <p class="section_en_title font_inria semi_bold"><span>W</span>HERE</p>
+                <p class="section_en_title font_inria semi_bold"><span>T</span>O</p>
+                <p class="section_en_title font_inria semi_bold"><span>G</span>O</p>
+            </div>
+            <h2 class="where_to_go_title text_30">내가 변화하는 갭이어대학은 어디일까요?</h2>
+            <p class="where_to_go_title_dec text_20">전 세계 다양한 지역에서 나에게 맞는 갭이어 프로젝트를 찾아보세요.</p>
+            <div class="map_tab">
+                <button class="map_tab_btn active" data-region="all">전체</button>
+                <button class="map_tab_btn" data-region="europe">유럽</button>
+                <button class="map_tab_btn" data-region="asia">아시아</button>
+                <button class="map_tab_btn" data-region="north_america">북미</button>
+                <button class="map_tab_btn" data-region="south_america">남미</button>
+                <button class="map_tab_btn" data-region="oceania">오세아니아</button>
+                <button class="map_tab_btn" data-region="africa">아프리카</button>
+            </div>
+            <div class="map_content">
+               <div class="map_area">
+                 <div class="map_visual">
+                    <div class="world_map">
+                      <img src="./img/MAP_700_COLOR_1.svg" alt="세계지도">
+                    </div>
+                    <div class="region_map">
+                      <img class="region_map_img" src="./img/europe_map.svg" alt="지역지도">
+                    </div>
+                    <div class="map_pin_area"></div>
+                 </div> 
+                 <div class="country_guide">
+                    <h3 class="country_guide_title text_20">어디에서 시작해볼까요?</h3>
+                    <p class="country_guide_desc">대륙을 선택하면 지역별 갭이어 프로젝트를<br>
+                                                 확인할 수 있어요.</p>
+                 </div>
+                 <!--  1000 이하 국가 선택 영역 -->
+                 <div class="mobile_country_select">
+                    <div class="mobile_country_header">
+                        <h3 class="mobile_country_title">
+                            유럽에서 어디로 떠나볼까요?
+                        </h3>
+                        <p class="mobile_country_desc">
+                            국가를 선택하면 프로젝트 정보를 확인할 수 있어요.
+                        </p>
+                    </div>
+                    <div class="mobile_country_list">
+                        <!-- JS로 국가 버튼 생성 -->
+                    </div>
+                 </div>
+                 <!-- 국가 선택 시 -->
+                 <div class="card_wrap">
+                   <div class="country_card">
+                    <div class="country_card_img">
+                       <img src="#" alt="img">
+                    </div>
+                    <div class="country_card_text">
+                    <div class="country_title_box">
+                        <h3 class="country_name text_20"></h3>
+                        <span class="country_name_en font_inria text_18"></span>
+                    </div>
+                    <div class="country_city">
+                        <img src="./img/location_icon.png" alt="icon">
+                        <p class="country_city_name"></p>
+                    </div>
+                    <div class="country_card_line"></div>
+                    <div class="country_project">
+                        <p class="country_project_title text_18">프로젝트 유형</p>
+                    <div class="project_tag_box">
+                        <div class="project_tag text_14"></div>
+                        <div class="project_tag text_14"></div>
+                        <div class="project_tag text_14"></div>
+                        <div class="project_tag text_14"></div>
+                    </div>
+                </div>
+                <div class="country_link_but_box">
+                    <a href="#" class="country_link_but">대표 프로젝트 보기 →</a>
+                </div>
+               </div>
+            </div>
+            <div class="project_detail_card">
+              <div class="project_detail_header">
+                <p class="project_detail_country"></p>
+                  <span class="project_detail_all">
+                     <a href="#" class="project_detail_all_but">전체보기 →</a>
+                   </span>
+                   <button class="project_detail_close" type="button">×</button>
+               </div>
+               <div class="project_filter_box"></div>
+               <div class="project_detail_img">
+                  <img src="#" alt="프로젝트 이미지">
+               </div>
+               <div class="project_detail_content">
+                  <p class="project_detail_number text_18"></p>
+                  <h3 class="project_detail_title text_18"></h3>
+                  <p class="project_detail_desc"></p>
+               <div class="project_detail_info">
+                  <p class="detail_info_box">
+                    <strong>지역</strong>
+                    <span>피렌체</span>
+                  </p>
+                  <p class="detail_info_box">
+                     <strong>추천기간</strong>
+                     <span>8주</span>
+                  </p>
+               </div>
+               <div class="project_detail_link_box">
+                  <a href="#" class="project_detail_link text_18">프로젝트 자세히 보기 →</a>
+              </div>  
+             </div>
+            </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="content_section real_story">
+           <div class="real_story_background_box">   
+              <div class="real_story_box">
+                <div class="real_story_title_box">   
+                    <p class="section_en_title font_inria semi_bold"><span>R</span>EAL</p>
+                    <p class="section_en_title font_inria semi_bold"><span>S</span>TORY</p>
+                </div>
+                <h2 class="real_story_title font_nanum_pen text_40">“갭이어,<br>
+                                                                     우리들의
+                                                                     이야기”</h2>
+                <div class="real_story_but_box">
+                    <a href="https://koreagapyear.com/ko/story" class="real_story_but">더 많은 이야기 보기 →</a>
+                </div>
+              </div>  
+                <div class="real_story_con_box">
+                    <a href="https://koreagapyear.com/ko/story/1484" class="real_story_box_1">
+                        <div class="real_story_img_1"></div>
+                           <div class="real_story_tab_green text_14">EXPLORE</div>
+                           <img src="./img/realstory_icon.png" alt="icon">
+                           <div class="real_story_desc_box">
+                              <p class="real_story_desc_1 text_18">처음으로 내가<br>
+                                                          원하는게 뭔지<br>
+                                                          생각해 봤어요.</p>
+                              <p class="real_story_desc_2">24세, 대학생</p>
+                           </div>
+                    </a>
+                    <div class="real_story_box_2">
+                      <a href="https://koreagapyear.com/ko/story/959" class="real_story_in_con_1">
+                        <div class="real_story_img_box">
+                           <img src="./img/real_story_img_2.jpg" alt="img">
+                           <div class="real_story_tab_blue text_14">LEARN</div>
+                        </div>
+                        <div class="real_story_text_box">
+                            <p class="real_story_review">두려웠던 도전이<br>
+                                                         이제는 나의<br>
+                                                         자신감이 되었어요.</p>
+                            <p class="real_story_info">26세, 대학원생</p>
+                        </div>
+                      </a>
+                      <a href="https://koreagapyear.com/ko/story/1655" class="real_story_in_con_2">
+                         <div class="real_story_img_box">
+                            <img src="./img/real_story_img_3.jpg" alt="img">
+                            <div class="real_story_tab_purple text_14">VOLUNTEER</div>
+                         </div>   
+                         <div class="real_story_text_box">
+                            <p class="real_story_review">나의 관심이<br>
+                                                         누군가에게는<br>
+                                                         큰 도움이 된다는 걸<br>
+                                                         알게 되었어요.</p>
+
+                            <p class="real_story_info">22세, 대학생</p>
+                        </div>
+                      </a> 
+                    </div>
+                    <a href="https://koreagapyear.com/ko/story/387" class="real_story_box_3">
+                        <div class="real_story_img_2"></div>
+                        <div class="real_story_tab_orange text_14">WORK</div>
+                        <p class="real_story_review_white text_18 semi_bold">모든 순간이<br>
+                                                     나를 성장시키는<br>
+                                                     경험이었습니다.</p>
+                        <p class="real_story_info_white medium">30세, 프리랜서</p>                             
+                    </a>
+                </div>                                                   
+           </div> 
+        </div>
+        <div class="content_section how_to_start">
+           <div class="how_to_start_background_box">   
+              <div class="how_to_start_text_box">
+                <div class="how_to_start_title_box">
+                    <p class="section_en_title font_inria semi_bold"><span>H</span>OW</p>
+                    <p class="section_en_title font_inria semi_bold"><span>T</span>O</p>
+                    <p class="section_en_title font_inria semi_bold"><span>S</span>TART</p>
+                </div> 
+                <h2 class="how_to_start_title text_30">갭이어,<br>
+                                                       어떻게 시작하면<br>
+                                                       되나요?</h2>
+                <a href="https://koreagapyear.com/ko/academy" class="how_to_start_tip_box">
+                    <p class="tip_title tip_title_en text_20 font_inria semi_bold">Tip</p>
+                    <p class="tip_title tip_title_desc_1">어디서 시작해야 할지 고민된다면?</p>
+                    <p class="tip_title tip_title_desc_2 semi_bold">간단한 가이드를 확인해보세요 →</p>
+                </a>
+              </div>
+              <div class="how_to_start_con_out_box">            
+                 <p class="how_to_start_con_title text_20 medium">✔ 프로젝트 선택 방법</p>
+                     <div class="how_to_start_con_box_1">
+                        <div class="how_to_start_con_card">
+                            <p class="how_to_start_card_num text_25 semi_bold">01.</p>
+                            <p class="how_to_start_card_title medium text_25">직접 찾아보기</p>
+                            <p class="how_to_start_card_desc text_18">원하는 경험과 지역이<br>
+                                                                      정해져 있다면<br>
+                                                                      프로젝트를<br>
+                                                                      직접 둘러보세요.</p>
+                            <div class="how_to_start_card_but_box">                                         
+                               <a href="https://koreagapyear.com/ko/program" class="how_to_start_card_but">프로젝트 둘러보기 →</a>
+                            </div>                                              
+                        </div>
+                        <div class="how_to_start_con_card">
+                            <p class="how_to_start_card_num text_25 semi_bold">02.</p>
+                            <p class="how_to_start_card_title medium text_25">진단으로 찾기</p>
+                            <p class="how_to_start_card_desc text_18">나에게 필요한 경험이<br> 
+                                                                      무엇인지<br> 
+                                                                      간단한 진단을 통해<br>
+                                                                      확인해보세요.</p>
+                            <div class="how_to_start_card_but_box">                                         
+                               <a href="https://koreagapyear.com/ko/tool" class="how_to_start_card_but">진단 시작하기 →</a>
+                            </div>    
+                        </div>
+                        <div class="how_to_start_con_card">
+                            <p class="how_to_start_card_num text_25 semi_bold">03.</p>
+                            <p class="how_to_start_card_title medium text_25">상담으로 시작하기</p>
+                            <p class="how_to_start_card_desc text_18">전문 컨설턴트와 함께<br>
+                                                                      고민을 정리하고<br>
+                                                                      프로젝트 방향을<br>
+                                                                      설정해보세요.</p>
+                            <div class="how_to_start_card_but_box">                                         
+                               <a href="https://koreagapyear.com/ko/program/70" class="how_to_start_card_but">상담 알아보기 →</a>
+                            </div>    
+                        </div>
+                     </div>   
+                     <div class="how_to_start_con_box_2">
+                        <div class="how_to_start_con_circle_out_box">
+                           <div class="how_to_start_con_circle_box">
+                              <div class="how_to_start_con_circle circle_blue">
+                                <div class="how_to_start_small_circle">01</div>
+                                <img src="./img/howto_icon_1.png" alt="icon">
+                                <p class="how_to_start_circle_title circle_title_white">프로젝트 선택</p>
+                              </div>
+                              <p class="how_to_start_con_circle_desc">나에게 맞는 프로젝트를<br>
+                                                                   선택하세요.</p>
+                           </div>
+                        </div>
+                        <div class="how_to_start_arroe_out_box">
+                           <img src="./img/howto_arrow.png" class="howto_arrow" alt="arrow">
+                        </div>
+                        <div class="how_to_start_con_circle_out_box">                 
+                           <div class="how_to_start_con_circle_box">
+                              <div class="how_to_start_con_circle">
+                                <div class="how_to_start_small_circle">02</div>
+                                <img src="./img/howto_icon_2.png" class="howto_arrow" alt="icon">
+                                <p class="how_to_start_circle_title">신청 및 준비</p>
+                              </div>
+                              <p class="how_to_start_con_circle_desc">필요한 서류와 절차를<br>
+                                                                      안내받고 준비해요.</p>
+                           </div>
+                        </div>
+                        <div class="how_to_start_arroe_out_box">
+                           <img src="./img/howto_arrow.png" class="howto_arrow">
+                        </div>
+                        <div class="how_to_start_con_circle_out_box">       
+                           <div class="how_to_start_con_circle_box">
+                              <div class="how_to_start_con_circle">
+                                 <div class="how_to_start_small_circle">03</div>
+                                 <img src="./img/howto_icon_3.png" class="howto_arrow" alt="icon">
+                                 <p class="how_to_start_circle_title">경험 시작</p>
+                              </div>
+                              <p class="how_to_start_con_circle_desc">새로운 환경으로 출발!<br>
+                                                                   갭이어가 시작됩니다.</p>
+                           </div>
+                        </div>  
+                     </div>
+              </div>
+           </div>   
+        </div>
+        <div class="content_section trust">
+            <div class="trust_title_box">
+               <p class="section_en_title font_inria semi_bold"><span>T</span>RUST</p>
+               <p class="section_en_title font_inria semi_bold"><span>Y</span>OUR</p>
+               <p class="section_en_title font_inria semi_bold"><span>G</span>APYEAR</p>
+            </div>   
+            <h2 class="trust_title font_nanum_pen text_40">“안심하고 경험에 집중할 수 있도록”</h2>
+            <div class="trust_background_box">
+                <div class="trust_con_box">
+                    <div class="trust_img trust_img_1">
+                       <div class="trust_con_title_box">
+                          <img src="./img/trust_icon_1.png" class="trust_icon" alt="icon">
+                           <p class="trust_num text_40 semi_bold">500 +</p>
+                       </div>
+                       <p class="trust_con_title font_inria text_30 semi_bold">PROJECTS</p>
+                       <div class="trust_con_line"></div>
+                       <p class="trust_con_desc text_20">직접 개발·운영하는<br>
+                                                         500여개의 해외 프로젝트</p>
+                    </div>
+                    <div class="trust_img trust_img_2">
+                       <div class="trust_con_title_box">
+                          <img src="./img/trust_icon_2.png" class="trust_icon" alt="icon">
+                          <p class="trust_num text_40 semi_bold">2000 +</p>
+                       </div>
+                       <p class="trust_con_title font_inria text_30 semi_bold">PARTICIPANTS</p>
+                       <div class="trust_con_line"></div>
+                       <p class="trust_con_desc text_20">매년 약 2,000명의 참가자와<br>
+                                                         새로운 경험을 함께 합니다.</p>
+                    </div>
+                </div>
+                <div class="trust_con_box_2">
+                    <div class="trust_card_text_box">
+                       <h3 class="trust_title font_nanum_pen text_35">“오직 당신의<br> 
+                                                                      성장과 변화에 집중합니다.”</h3>
+                    </div>
+                    <div class="trust_card_box">
+                      <div class="trust_card_tape card_tape_green"></div>
+                      <div class="trust_card_content card_green">
+                          <p class="trust_card_title text_20 medium">성장&변화</p>
+                          <div class="trust_card_line trust_card_line_green"></div>
+                          <p class="trust_card_desc text_18">갭이어의 모든 과정은 참여자의<br> 
+                                                             성장과 변화를 위해 만들어졌어요.</p>
+                      </div>
+                    </div>
+                    <div class="trust_card_box">
+                       <div class="trust_card_tape card_tape_purple"></div>
+                       <div class="trust_card_content card_purple">
+                          <p class="trust_card_title text_20 medium">준비&동행</p>
+                          <div class="trust_card_line trust_card_line_purple"></div>
+                          <p class="trust_card_desc text_18">항공, 숙박, 여행, 비자 등은<br>
+                                                             확정 후 같이해요.</p>
+                      </div>
+                    </div>
+                    <div class="trust_card_box">
+                        <div class="trust_card_tape card_tape_orange"></div>
+                        <div class="trust_card_content card_orange">
+                          <p class="trust_card_title text_20 medium">생활&안전</p>
+                          <div class="trust_card_line trust_card_line_orange"></div>
+                          <p class="trust_card_desc text_18">직접 방문하여 살아보고<br>
+                                                             생활과 안전을 확인했어요.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="trust_cta_box">
+                   <div class="trust_cta_text_box_1">
+                       <p class="trust_cta_title bold text_22">SOCIAL ENTERPRISE</p>
+                       <p class="trust_cta_desc semi_bold text_22">공신력 있는 운영과 축적된 경험</p>
+                   </div>
+                   <div class="trust_cta_icon_box">
+                      <div class="trust_cta_icon">
+                         <img src="./img/cta_icon.png" class="cta_icon" alt="icon">
+                         <p class="trust_cta_icon_title medium">사회적 우수기업 선정</p>
+                         <p class="trust_cta_icon_desc text_14">서울사회적경제센터 주관(2024년)</p>
+                      </div>
+                      <div class="trust_cta_icon">
+                         <img src="./img/cta_icon.png" class="cta_icon" alt="icon">
+                         <p class="trust_cta_icon_title medium">대한민국 국무총리 표창</p>
+                         <p class="trust_cta_icon_desc text_14">기획재정부 주관(2021년)</p>
+                      </div>
+                      <div class="trust_cta_icon">
+                         <img src="./img/cta_icon.png" class="cta_icon" alt="icon">
+                         <p class="trust_cta_icon_title medium">고용노동부 인증 사회적 기업</p>
+                         <p class="trust_cta_icon_desc text_14">고용노동부 주관(2019년)</p>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="full_background_section cta_page">
+          <div class="cta_inner_page">
+           <div class="cta_page_text_box">
+              <p class="cta_page_text_title text_35 medium">이제, 나만의 갭이어를 시작해보세요.</p>
+              <p class="cta_page_text_desc text_20">어떤 경험이 필요한지 아직 모르겠어도 괜찮아요.<br class="br_pc">
+                                                    나에게 맞는 방법부터 하나씩 찾아보세요.</p>
+           </div>
+           <div class="cta_page_con_box">
+              <div class="cta_page_cta_box">
+                 <a href="https://koreagapyear.com/ko/program/70" class="cta_page_cta_detail_box">
+                    <img src="./img/cta_icon_2.png" class="cta_icon" alt="icon">
+                    <div class="cta_page_cta_detail_title_box">
+                       <p class="cta_page_cta_detail_title text_20 semi_bold">갭이어 컨설팅 알아보기</p>
+                       <p class="cta_page_cta_detail_desc">전문가에게 상담을 받아보세요.
+                           <img src="./img/cta_arrow.png" class="cta_arrow" alt="icon"> 
+                       </p>  
+                    </div>
+                 </a>
+                 <a href="https://koreagapyear.com/ko/support/proposal" class="cta_page_cta_detail_box">
+                     <img src="./img/cta_icon_3.png" class="cta_icon" alt="icon">
+                     <div class="cta_page_cta_detail_title_box">
+                        <p class="cta_page_cta_detail_title text_20 semi_bold">협업/ 기업단체 문의</p>
+                        <p class="cta_page_cta_detail_desc">당신의 아이디어를 제안해주세요.
+                           <img src="./img/cta_arrow.png" class="cta_arrow" alt="icon">
+                        </p>    
+                     </div>
+                 </a>
+              </div>
+              <div class="cta_page_cta_box_2">
+                  <p class="cta_page_contact_title text_22 semi_bold">문의하기</p>
+                  <p class="cta_page_contact_desc text_18 medium">상담시간: 10:00 ~ 18:00<br>
+                                                           토·일·공휴일 휴무</p>
+                  <p class="cta_page_contact_info_title text_18 medium">상담 대표번호</p>
+                  <div class="cta_page_contact_info_box">
+                      <p class="cta_page_contact_info_number text_25 medium">02) 318-2553</p>
+                      <div class="cta_icon_box">
+                        <img src="./img/cta_sns_icon_1.png" class="cta_sns_icon phone_trigger" alt="전화 문의">
+                        <a href="https://pf.kakao.com/_SRxerl/chat">
+                           <img src="./img/cta_sns_icon_2.png" class="cta_sns_icon" alt="icon">
+                        </a>   
+                      </div>  
+                  </div>                                         
+              </div>
+            </div>
+          </div> 
+        </div>
+     </main>
+     <div class="partner_section">
+        <div class="partner_inner">
+          <h2 class="partner_title">한국갭이어와 함께하는 협력사</h2>
+          <div class="partner_logo_wrap">
+            <div class="partner_logo_box">
+                <img src="./img/footer_logo/1.png" alt="협력사 로고">
+                <img src="./img/footer_logo/2.png" alt="협력사 로고">
+                <img src="./img/footer_logo/3.png" alt="협력사 로고">
+                <img src="./img/footer_logo/badge2.png" alt="협력사 로고">
+                <img src="./img/footer_logo/badge3.png" alt="협력사 로고">
+                <img src="./img/footer_logo/joong.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/w.png" alt="협력사 로고">
+                <img src="./img/footer_logo/p.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/7.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/help.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/iacl.png" alt="협력사 로고">
+                <img src="./img/footer_logo/su.png" alt="협력사 로고">
+                <img src="./img/footer_logo/gawan.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/you.png" alt="협력사 로고">
+                <img src="./img/footer_logo/8.png" alt="협력사 로고">
+                <img src="./img/footer_logo/9.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/MG.png" alt="협력사 로고">
+                <img src="./img/footer_logo/SE15.png" alt="협력사 로고">
+                <img src="./img/footer_logo/aws.svg.png" alt="협력사 로고">
+                <img src="./img/footer_logo/EBS.png" alt="협력사 로고">
+                <img src="./img/footer_logo/GUN.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/U2.png" alt="협력사 로고">
+                <img src="./img/footer_logo/U3.png" alt="협력사 로고">
+                <img src="./img/footer_logo/U4.png" alt="협력사 로고">
+                <img src="./img/footer_logo/U5.png" alt="협력사 로고">
+                <img src="./img/footer_logo/U6.png" alt="협력사 로고">
+                <img src="./img/footer_logo/U7.png" alt="협력사 로고">
+                <img src="./img/footer_logo/JEON.png" alt="협력사 로고">
+                <img src="./img/footer_logo/bong.png" alt="협력사 로고">
+                <img src="./img/footer_logo/gang.png" alt="협력사 로고">
+                <img src="./img/footer_logo/gawng.png" alt="협력사 로고">
+                <img src="./img/footer_logo/haw.jpg" alt="협력사 로고">
+                <img src="./img/footer_logo/je.png" alt="협력사 로고">
+                <img src="./img/footer_logo/si.png" alt="협력사 로고">
+                <img src="./img/footer_logo/se.png" alt="협력사 로고">
+            </div>
+          </div>
+          <button type="button" class="partner_toggle_btn">
+            <span>펼치기</span>
+            <span class="partner_arrow">⌄</span>
+
+        </div>
+     </div>
+     <div class="quick_menu">
+       <a href="#" class="quick_menu_item inquiry_trigger">
+          <p>1:1<br>문의</p>
+       </a>
+       <a href="https://booking.naver.com/booking/6/bizes/1228501" class="quick_menu_item">
+          <p>방문<br>상담</p>
+       </a>
+       <a href="https://pf.kakao.com/_SRxerl/chat" class="quick_menu_item">
+          <img src="./img/cta_sns_icon_2.png" alt="">
+       </a>
+       <a href="javascript:void(0)" class="quick_menu_item quick_menu_item phone_trigger">
+          <img src="./img/cta_sns_icon_1.png" alt="">
+       </a>
+     </div>
+     <footer class="main_footer">
+       <div class="footer_inner">
+        <img src="./img/footer_logo.png" class="footer_logo" alt="logo">
+           <div class="footer_con_box"> 
+              <ul class="footer_text text_14">
+                 <li>대표자: 안시준</li>
+                 <li>주) 한국갭이어 사업장/교육 및 컨설팅</li>
+              </ul>
+              <ul class="footer_text text_14">
+                  주소: 서울특별시 용산구 한강대로 80길 11-49, 2층 한국갭이어
+              </ul>
+              <ul class="footer_text text_14">
+                 <li>대표번호: <a href="tel:023182553">02-318-2553</a></li>
+                 <li>FAX: 02-3280-2553</li>
+                 <li>E-MAIL: <a href="mailto:help@koreagapyear.com">help@koreagapyear.com</a></li>
+              </ul>
+              <ul class="footer_text text_14">
+                 <li>사업자등록번호: 201-86-27270</li>
+                 <li>통신판매업: 2012-서울중구-1307</li>
+                 <li>개인정보책임자: 안시준</li>
+              </ul>
+              <nav aria-label="이용약관">
+                 <ul class="footer_text text_14">
+                    <li><a href="#">온라인디지털콘텐츠산업발전법에 의한 국민은행 구매안전서비스(채무지급보증)</a></li>
+                    <li><a href="#">웹사이트 이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                 </ul>
+              </nav>
+              <nav aria-label="언어 선택">
+                 <ul class="footer_text text_14">
+                    <li><a href="#" lang="ko">한국어</a></li>
+                    <li><a href="#" lang="en">English</a></li>
+                    <li><a href="#" lang="ja">日本語</a></li>
+                 </ul>
+              </nav>
+              <div class="footer_copyright">
+                  <p class="footer_text text_14">COPYRIGHT 2013 KOREAGAPYEAR. ALL RIGHTS RESERVED.</p>
+                  <p class="footer_text text_14">한국갭이어는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 따라서 상품, 거래정보 및 거래에 대하여 책임지지 않습니다.</p>
+              </div>
+           </div>
+           <div class="footer_sns_box">
+              <a href="#" class="footer_sns_icon">
+                 <img src="./img/sns_you.png" alt="sns">
+              </a>
+              <a href="#" class="footer_sns_icon">
+                <img src="./img/sns_in.png" alt="sns">
+              </a>
+              <a href="#" class="footer_sns_icon">
+                <img src="./img/sns_fa.png" alt="sns">
+              </a>
+              <a href="#" class="footer_sns_icon">
+                <img src="./img/sns_na.png" alt="sns">
+              </a>
+           </div>
+         </div>  
+     </footer>
+     <div class="inquiry_modal" id="inquiryModal">
+       <div class="inquiry_modal_box">
+         <button type="button" class="inquiry_close_btn">×</button>
+         <h2>갭이어 문의</h2>
+         <div class="inquiry_form">
+            <label for="inquiryEmail">이메일</label>
+            <input
+                type="email"
+                id="inquiryEmail"
+                placeholder="답변 받을 이메일을 입력해주세요."
+            >
+            <label for="inquiryContent">문의 내용</label>
+            <textarea
+                id="inquiryContent"
+                placeholder="문의 내용을 입력해주세요"
+            ></textarea>
+            <button type="button" class="inquiry_submit_btn">
+                문의 접수하기
+            </button>
+        </div>
+       </div>
+     </div>
+     <div class="modal_overlay" id="phoneModal">
+        <div class="modal_box">
+           <div class="modal_icon">
+              <img src="./img/cta_sns_icon_1.png" alt="phone">
+           </div>
+           <p class="modal_title">전화 문의</p>
+           <p class="modal_number" id="phoneNumber">02-318-2553</p>
+           <div class="modal_btn_box">
+              <button class="modal_btn close_btn">닫기</button>
+              <button class="modal_btn copy_btn">복사</button>
+           </div>
+        </div>
+     </div>
+
+      
+    <script src="./js/main.js"></script>
+</body>
+</html>
