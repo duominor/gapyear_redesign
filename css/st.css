@@ -3959,18 +3959,16 @@ body.nav_open{
 
     .map_tab_btn{ line-height: 1; }
 
-    .country_guide{
-        position: static;
-        width: 100%;
-        height: auto;
-        margin-top: -30px;
-        padding-bottom: 20px;
+
+    .country_guide {
+        display: none !important;
     }
+
+
 
    .mobile_country_select {
         display: none;
         width: 100%;
-        margin-top: 30px;
     }
 
  
@@ -4019,7 +4017,7 @@ body.nav_open{
     .country_card{
         position: static;
         width: 380px;
-        margin: 50px 0 0;
+        margin: 40px 0 0;
         box-shadow: none;
     }
 
@@ -4062,7 +4060,7 @@ body.nav_open{
         position: static;
         width: 380px;
         height: auto;
-        margin: 50px 0 0;
+        margin: 40px 0 0;
     }
 
 
@@ -4822,7 +4820,9 @@ body.nav_open{
     object-fit: fill;
 }
 
-
+.project_detail_card {
+    margin: 25px 0 0;
+}
 
 
 
