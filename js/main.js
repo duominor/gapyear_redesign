@@ -922,6 +922,76 @@ projectDetailClose.addEventListener("click", function(){
 }
 
 
+
+// ========================================
+// 모바일 국가카드 스와이프
+// ========================================
+
+const countrySwipeCard =
+    document.querySelector(".country_card");
+
+let countryTouchStartX = 0;
+let countryTouchStartY = 0;
+
+countrySwipeCard.addEventListener("touchstart", function(e){
+
+    if(window.innerWidth > 767) return;
+
+    countryTouchStartX = e.changedTouches[0].clientX;
+    countryTouchStartY = e.changedTouches[0].clientY;
+
+}, { passive: true });
+
+
+countrySwipeCard.addEventListener("touchend", function(e){
+
+    // 모바일에서만 작동
+    if(window.innerWidth > 767) return;
+
+    // 국가카드가 보이지 않으면 종료
+    if(countrySwipeCard.style.display === "none") return;
+
+    const diffX =
+        countryTouchStartX - e.changedTouches[0].clientX;
+
+    const diffY =
+        countryTouchStartY - e.changedTouches[0].clientY;
+
+    // 짧은 터치 및 세로 스크롤 제외
+    if(Math.abs(diffX) < 50) return;
+    if(Math.abs(diffX) <= Math.abs(diffY)) return;
+
+    // 현재 대륙에 표시된 국가 버튼
+    const countryButtons = [
+        ...document.querySelectorAll(".mobile_country_btn")
+    ];
+
+    if(countryButtons.length < 2) return;
+
+    // 현재 선택된 국가
+    const currentIndex = countryButtons.findIndex(
+        button => button.classList.contains("active")
+    );
+
+    if(currentIndex === -1) return;
+
+    // 왼쪽: 다음 국가 / 오른쪽: 이전 국가
+    const direction = diffX > 0 ? 1 : -1;
+
+    // 마지막 ↔ 첫 번째 순환
+    const nextIndex =
+        (currentIndex + direction + countryButtons.length)
+        % countryButtons.length;
+
+    // 기존 국가 선택 기능 실행
+    countryButtons[nextIndex].click();
+
+}, { passive: true });
+
+
+
+
+
 // 모바일 프로젝트 카드 스와이프
 
 
