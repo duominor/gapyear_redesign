@@ -4761,24 +4761,34 @@ body.nav_open{
     gap: 45px 30px;
 }
 
+.experience_card,
+.experience_card_front {
+     width: 100%;
+     height: 425px;
+}
 
 
 .experience_card_box {
     grid-template-columns: repeat(1, 1fr);
 }
 
-    .experience_card_inner{
-        transform: none !important;
-        transition: none;
-    }
+.experience_card_inner{
+    transform: none !important;
+    transition: none;
+}
 
-    .experience_card.active .experience_card_inner{
-        transform: none !important;
-    }
+.experience_card.active .experience_card_inner{
+    transform: none !important;
+}
 
-    .experience_card_back{
-        display: none;
-    }
+.experience_card_back{
+    display: none;
+}
+
+.experience_card_front img{
+     height: 215px;
+}
+
 
 
 .experience_cta_box {
@@ -4869,9 +4879,13 @@ body.nav_open{
 }
 
 .how_to_start_card_num {
-    margin-bottom: 10px;
     font-size: 20px;
+    margin: 20px;
 }
+
+
+
+
 
 .how_to_start_card_title{
     font-size: 18px;
