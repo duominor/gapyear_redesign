@@ -607,7 +607,8 @@ body.nav_open{
 
 
 
-.card_green{
+.card_green,
+.trust_card_green{
     background-color: #EEF8F2;
     
 }
@@ -617,11 +618,13 @@ body.nav_open{
 }
 
 
-.card_orange{
+.card_orange,
+.trust_card_orange{
     background-color: #FFF0EB;
 }
 
-.card_purple{
+.card_purple,
+.trust_card_purple{
     background-color: #F7F1FF;
 }
 
@@ -4999,9 +5002,9 @@ body.nav_open{
 
 
 .trust_card_box,
-.card_green,
-.card_purple,
-.card_orange{
+.trust_card_green,
+.trust_card_purple,
+.trust_card_orange{
     margin-top: 25px;
     height: 180px;
 }
