@@ -4860,9 +4860,14 @@ body.nav_open{
 .real_story_desc_box {
     width: 185px;
     height: 160px;
-
 }
 
+.real_story_in_con_1, 
+.real_story_in_con_2,
+.real_story_img_box,
+.real_story_text_box{
+    height: 165px;
+}
 
 .real_story_box_3 {
     height: 280px;
@@ -5015,6 +5020,11 @@ body.nav_open{
     padding: 25px;
 }
 
+.trust_cta_text_box_1 {
+    margin-bottom: 0;
+}
+
+
 .trust_cta_icon_box {
     flex-direction: column;
 }
@@ -5029,6 +5039,12 @@ body.nav_open{
 
 
 /* cta_page */
+
+
+
+.full_background_section.cta_page {
+    margin-top: 80px;
+}
 
 .cta_page_con_box {
     flex-direction: column;
