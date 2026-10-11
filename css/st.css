@@ -4815,7 +4815,11 @@ body.nav_open{
 }  
 
 
-.country_card_img {
+.country_card_img{
+    height: 200px;
+}
+
+.project_detail_img img{
     height: 200px;
 }
 
