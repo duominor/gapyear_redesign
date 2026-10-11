@@ -4815,6 +4815,12 @@ body.nav_open{
  }
 
 
+.region_map_img {
+    object-fit: fill;
+}
+
+
+
 .card_wrap{
   flex-direction: column;
   gap: 0;
@@ -4828,11 +4834,12 @@ body.nav_open{
 }  
 
 
-.country_card_img{
-    height: 200px;
+.country_card {
+    margin: 30px 0 0; 
 }
 
-.project_detail_img img{
+
+.country_card_img{
     height: 200px;
 }
 
@@ -4850,6 +4857,9 @@ body.nav_open{
     margin: 25px 0 0;
 }
 
+.project_detail_img img{
+    height: 200px;
+}
 
 
 /* real_story */
