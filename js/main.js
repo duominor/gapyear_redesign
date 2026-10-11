@@ -922,6 +922,81 @@ projectDetailClose.addEventListener("click", function(){
 }
 
 
+// 모바일 프로젝트 카드 스와이프
+
+
+const swipeCard = document.querySelector(".project_detail_card");
+
+let touchStartX = 0;
+let touchStartY = 0;
+
+swipeCard.addEventListener("touchstart", function(e){
+
+    if(window.innerWidth > 767) return;
+
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+
+}, { passive: true });
+
+
+swipeCard.addEventListener("touchend", function(e){
+
+    if(window.innerWidth > 767) return;
+    if(!swipeCard.classList.contains("active")) return;
+
+    const touchEndX = e.changedTouches[0].screenX;
+    const touchEndY = e.changedTouches[0].screenY;
+
+    const diffX = touchStartX - touchEndX;
+    const diffY = touchStartY - touchEndY;
+
+    // 세로 스크롤은 무시
+    if(Math.abs(diffX) < 50) return;
+    if(Math.abs(diffX) <= Math.abs(diffY)) return;
+
+    // 현재 선택한 국가 찾기
+    const countryName =
+        document.querySelector(".country_name").textContent;
+
+    const selectedCountry = mapData.regions
+        .flatMap(region => region.countries)
+        .find(country => country.country === countryName);
+
+    if(!selectedCountry || !selectedCountry.projects?.length) return;
+
+    const projects = selectedCountry.projects;
+
+    // 현재 활성화된 프로젝트 유형
+    const activeFilter =
+        document.querySelector(".project_filter.active");
+
+    const currentIndex = activeFilter
+        ? projects.findIndex(project =>
+            project.type === activeFilter.dataset.type)
+        : 0;
+
+    const nextIndex = diffX > 0
+        ? (currentIndex + 1) % projects.length
+        : (currentIndex - 1 + projects.length) % projects.length;
+
+    const nextProject = projects[nextIndex];
+
+    // 프로젝트 내용 변경
+    showProject(projects, nextProject.type);
+
+    // 필터 active 동기화
+    document.querySelectorAll(".project_filter").forEach(function(filter){
+
+        filter.classList.toggle(
+            "active",
+            filter.dataset.type === nextProject.type
+        );
+
+    });
+
+}, { passive: true });
+
 
 
 const partnerBtn = document.querySelector(".partner_toggle_btn");
