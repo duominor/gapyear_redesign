@@ -1336,12 +1336,14 @@ body.nav_open{
     right: 0;
     border: 1px solid #C2C2C2;
     box-shadow: 2px 2px 4px #E5E5E5;
+
 }
 
 .country_card_img img{
     height: 200px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
+
 }
 
 .country_title_box{
@@ -4811,6 +4813,12 @@ body.nav_open{
   width: 100%;
 
 }  
+
+
+.country_card_img {
+    height: 200px;
+}
+
 
 .country_guide {
     margin-top: 0;
