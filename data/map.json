@@ -86,8 +86,7 @@
               "파리",
               "몽펠리에",
               "보르도",
-              "니스",
-              "리옹"
+              "비아리츠"
             ],
             "projectTypes": [
               "어학",
@@ -96,7 +95,50 @@
               "인턴십"
             ],
             "image": "./img/map_img_fran.jpg"
-          }
+        },
+           "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%ED%94%84%EB%9E%91%EC%8A%A4&",
+           "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_fran_project_01.jpg",
+      "title": "대서양의 아름다운 휴양도시, 프랑스 비아리츠에서 프랑스어 시작하기! ",
+      "desc": "프랑스어를 전혀 하지 못해도 참가할 수 있는 어학 프로젝트",
+      "city": "비아리츠",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/657"
+    },
+    {
+      "number": "02",
+      "type": "요리·제과",
+      "image": "./img/detail_img_fran_project_02.jpg",
+      "title": "프랑스 최고의 요리학교, 파리 르꼬르동 블루에서 파티시에를 꿈꾸다",
+      "desc": "디저트의 도시 프랑스에서 전문 파티쉐 과정 수료하기",
+      "city": "파리",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/503"
+    },
+    {
+      "number": "03",
+      "type": "문화재보존",
+      "image": "./img/detail_img_fran_project_03.jpg",
+      "title": "꿈의 여행지, 프랑스 남부지방에서 즐기는 중세시대 문화재 보존 프로젝트!",
+      "desc": "남프랑스에서 중세 시대의 문화재 보존을 위한 봉사여행 프로젝트",
+      "city": "아비뇽",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/158"
+    },
+    {
+      "number": "04",
+      "type": "인턴십",
+      "image": "./img/detail_img_fran_project_04.jpg",
+      "title": "프랑스어도 배우고 실무 경험도 쌓고! 프랑스 몽펠리에 인턴십",
+      "desc": "언어 실력을 향상시키는 동시에 프랑스의 실무 현장을 체험하는 인턴십 프로그램",
+      "city": "몽펠리에",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/694"
+    }
+      ]    
         },
         {
           "id": "europe_03",
@@ -110,19 +152,50 @@
           "card": {
             "cities": [
               "바르셀로나",
-              "마드리드",
               "말라가",
+              "메노르카",
               "발렌시아"
             ],
             "projectTypes": [
               "어학",
               "봉사",
-              "고고학",
-              "공예"
+              "고고학"
             ],
             "image": "./img/map_img_spain.jpg"
-           
-          }
+        },
+           "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%EC%8A%A4%ED%8E%98%EC%9D%B8&",
+           "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_spain_project_01.jpg",
+      "title": "황금빛 태양과 푸른 지중해, 휴양 도시 말라가에서 스페인어 배우기!",
+      "desc": "스페인의 매력을 가득 느낄 수 있는 말라가에서 스페인어 배우기",
+      "city": "말라가",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/617"
+    },
+    {
+      "number": "02",
+      "type": "봉사",
+      "image": "./img/detail_img_spain_project_02.jpg",
+      "title": "바르셀로나의 푸른 지중해로 풍덩! 깨끗한 바다를 위한 해양 보전 봉사활동",
+      "desc": "물 속 쓰레기를 수거하는 다이빙 활동으로 해안을 깨끗하게 변화시키기",
+      "city": "파리",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/717"
+    },
+    {
+      "number": "03",
+      "type": "고고학",
+      "image": "./img/detail_img_spain_project_03.jpg",
+      "title": "스페인, 발레아레스 제도에서 로마의 유물을 발굴하다 고고학 프로그램 참여하기",
+      "desc": "로마시대의 유물들을 발굴하고 2,500년전 로마시대 사람들의 생활을 생생하게 느껴보는 프로젝트",
+      "city": "메노르카",
+      "period": "2주",
+      "link": "https://koreagapyear.com/ko/program/423"
+    }
+      ]    
         },
         {
           "id": "europe_04",
@@ -238,6 +311,7 @@
           "card": {
             "cities": [
               "아테네",
+              "볼로스",
               "자킨토스"
             ],
             "projectTypes": [
@@ -246,7 +320,40 @@
               "인턴십"
             ],
             "image": "./img/map_img_gree.jpg"
-          }
+        },
+         "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%EA%B7%B8%EB%A6%AC%EC%8A%A4&",
+         "projects": [
+    {
+      "number": "01",
+      "type": "봉사",
+      "image": "./img/detail_img_gree_project_01.jpg",
+      "title": "고양이와 함께 보내는 여유와 사랑이 가득한 시간, 아테네 유기동물 돌보기 봉사활동",
+      "desc": "유럽의 동물 보호 시설을 경험해 보고 싶은 사람들을 위한 유기 동물 돌봄 활동",
+      "city": "아테네",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/1176"
+    },      
+    {
+      "number": "02",
+      "type": "동물·환경",
+      "image": "./img/detail_img_gree_project_02.jpg",
+      "title": "태양의 후예의 그곳, 그리스 자킨토스에서 거북이 살리기 프로젝트",
+      "desc": "멸종 위기 바다거북을 지키는 전문적이고 의미 있는 현장 경험",
+      "city": "자킨토스",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/210"
+    },
+    {
+      "number": "03",
+      "type": "인턴십",
+      "image": "./img/detail_img_gree_project_03.jpg",
+      "title": "유럽의 수의사팀과 함께 유기 동물 치료하기! 아테네 동물 보호소 수의사 인턴십",
+      "desc": "전문 수의사팀과 함께 동물보호소에서 동물을 치료하고 돌보는 동물보호 인턴십 프로젝트",
+      "city": "아테네",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/1177"
+    }
+      ]    
         },
         {
           "id": "europe_07",
@@ -333,7 +440,30 @@
               "인턴십"
             ],
             "image": "./img/map_img_malta.jpg"
-          }
+        },
+           "projectListLink": "https://koreagapyear.com/ko/program?keyword=[]&title=%EB%AA%B0%ED%83%80&",
+           "projects": [
+    {
+      "number": "01",
+      "type": "어학",
+      "image": "./img/detail_img_malta_project_01.jpg",
+      "title": "몰타에서 영어 공부하며 여행하기, 시니어 갭이어!",
+      "desc": "여행하며 영어 공부도 하고 싶은 시니어분들을 위한 프로젝트",
+      "city": "발레타",
+      "period": "8주",
+      "link": "https://koreagapyear.com/ko/program/53"
+    },      
+    {
+      "number": "02",
+      "type": "인턴십",
+      "image": "./img/detail_img_malta_project_02.jpg",
+      "title": "지중해에 위치한 아름다운 섬 ‘몰타’ 에서 인턴십의 기회를!",
+      "desc": "다양한 분야의 인턴십을 통해 성장해가는 시간을 가져보는 갭이어 프로젝트",
+      "city": "발레타",
+      "period": "12주",
+      "link": "https://koreagapyear.com/ko/program/602"
+    }
+      ]    
         },
         {
           "id": "europe_09",
